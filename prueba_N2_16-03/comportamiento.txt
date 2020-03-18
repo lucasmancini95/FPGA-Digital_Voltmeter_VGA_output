@@ -1,0 +1,1 @@
+ La imagen está invertida y los números fijos en 2,29V.
