@@ -1,0 +1,12 @@
+#-----------------------------------------------------------
+# Vivado v2020.2 (64-bit)
+# SW Build 3064766 on Wed Nov 18 09:12:45 MST 2020
+# IP Build 3064653 on Wed Nov 18 14:17:31 MST 2020
+# Start of session at: Sat Mar 13 19:39:50 2021
+# Process ID: 5640
+# Current directory: C:/Users/manci/OneDrive/Escritorio/Prueba_TP_ED1/Prueba_TP_ED1.runs/impl_1
+# Command line: vivado.exe -log Voltimetro_toplevel.vdi -applog -product Vivado -messageDb vivado.pb -mode batch -source Voltimetro_toplevel.tcl -notrace
+# Log file: C:/Users/manci/OneDrive/Escritorio/Prueba_TP_ED1/Prueba_TP_ED1.runs/impl_1/Voltimetro_toplevel.vdi
+# Journal file: C:/Users/manci/OneDrive/Escritorio/Prueba_TP_ED1/Prueba_TP_ED1.runs/impl_1\vivado.jou
+#-----------------------------------------------------------
+source Voltimetro_toplevel.tcl -notrace

@@ -1,0 +1,354 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GenRun Id="impl_1" LaunchPart="xc7a35ticsg324-1L" LaunchTime="1615675133">
+  <File Type="BITSTR-BMM" Name="Voltimetro_toplevel_bd.bmm"/>
+  <File Type="OPT-METHODOLOGY-DRC" Name="Voltimetro_toplevel_methodology_drc_opted.rpt"/>
+  <File Type="INIT-TIMING" Name="Voltimetro_toplevel_timing_summary_init.rpt"/>
+  <File Type="ROUTE-PWR" Name="Voltimetro_toplevel_power_routed.rpt"/>
+  <File Type="PA-TCL" Name="Voltimetro_toplevel.tcl"/>
+  <File Type="OPT-TIMING" Name="Voltimetro_toplevel_timing_summary_opted.rpt"/>
+  <File Type="OPT-DCP" Name="Voltimetro_toplevel_opt.dcp"/>
+  <File Type="ROUTE-PWR-SUM" Name="Voltimetro_toplevel_power_summary_routed.pb"/>
+  <File Type="REPORTS-TCL" Name="Voltimetro_toplevel_reports.tcl"/>
+  <File Type="OPT-DRC" Name="Voltimetro_toplevel_drc_opted.rpt"/>
+  <File Type="OPT-HWDEF" Name="Voltimetro_toplevel.hwdef"/>
+  <File Type="PWROPT-DCP" Name="Voltimetro_toplevel_pwropt.dcp"/>
+  <File Type="PWROPT-DRC" Name="Voltimetro_toplevel_drc_pwropted.rpt"/>
+  <File Type="PWROPT-TIMING" Name="Voltimetro_toplevel_timing_summary_pwropted.rpt"/>
+  <File Type="PLACE-DCP" Name="Voltimetro_toplevel_placed.dcp"/>
+  <File Type="PLACE-IO" Name="Voltimetro_toplevel_io_placed.rpt"/>
+  <File Type="PLACE-CLK" Name="Voltimetro_toplevel_clock_utilization_placed.rpt"/>
+  <File Type="PLACE-UTIL" Name="Voltimetro_toplevel_utilization_placed.rpt"/>
+  <File Type="PLACE-UTIL-PB" Name="Voltimetro_toplevel_utilization_placed.pb"/>
+  <File Type="PLACE-CTRL" Name="Voltimetro_toplevel_control_sets_placed.rpt"/>
+  <File Type="PLACE-SIMILARITY" Name="Voltimetro_toplevel_incremental_reuse_placed.rpt"/>
+  <File Type="PLACE-PRE-SIMILARITY" Name="Voltimetro_toplevel_incremental_reuse_pre_placed.rpt"/>
+  <File Type="PLACE-TIMING" Name="Voltimetro_toplevel_timing_summary_placed.rpt"/>
+  <File Type="POSTPLACE-PWROPT-DCP" Name="Voltimetro_toplevel_postplace_pwropt.dcp"/>
+  <File Type="BG-BIN" Name="Voltimetro_toplevel.bin"/>
+  <File Type="POSTPLACE-PWROPT-TIMING" Name="Voltimetro_toplevel_timing_summary_postplace_pwropted.rpt"/>
+  <File Type="PHYSOPT-DCP" Name="Voltimetro_toplevel_physopt.dcp"/>
+  <File Type="PHYSOPT-DRC" Name="Voltimetro_toplevel_drc_physopted.rpt"/>
+  <File Type="BITSTR-MSK" Name="Voltimetro_toplevel.msk"/>
+  <File Type="PHYSOPT-TIMING" Name="Voltimetro_toplevel_timing_summary_physopted.rpt"/>
+  <File Type="ROUTE-ERROR-DCP" Name="Voltimetro_toplevel_routed_error.dcp"/>
+  <File Type="ROUTE-DCP" Name="Voltimetro_toplevel_routed.dcp"/>
+  <File Type="ROUTE-BLACKBOX-DCP" Name="Voltimetro_toplevel_routed_bb.dcp"/>
+  <File Type="ROUTE-DRC" Name="Voltimetro_toplevel_drc_routed.rpt"/>
+  <File Type="ROUTE-DRC-PB" Name="Voltimetro_toplevel_drc_routed.pb"/>
+  <File Type="ROUTE-DRC-RPX" Name="Voltimetro_toplevel_drc_routed.rpx"/>
+  <File Type="BITSTR-MMI" Name="Voltimetro_toplevel.mmi"/>
+  <File Type="ROUTE-METHODOLOGY-DRC" Name="Voltimetro_toplevel_methodology_drc_routed.rpt"/>
+  <File Type="ROUTE-METHODOLOGY-DRC-RPX" Name="Voltimetro_toplevel_methodology_drc_routed.rpx"/>
+  <File Type="ROUTE-METHODOLOGY-DRC-PB" Name="Voltimetro_toplevel_methodology_drc_routed.pb"/>
+  <File Type="ROUTE-PWR-RPX" Name="Voltimetro_toplevel_power_routed.rpx"/>
+  <File Type="ROUTE-STATUS" Name="Voltimetro_toplevel_route_status.rpt"/>
+  <File Type="ROUTE-STATUS-PB" Name="Voltimetro_toplevel_route_status.pb"/>
+  <File Type="ROUTE-TIMINGSUMMARY" Name="Voltimetro_toplevel_timing_summary_routed.rpt"/>
+  <File Type="ROUTE-TIMING-PB" Name="Voltimetro_toplevel_timing_summary_routed.pb"/>
+  <File Type="ROUTE-TIMING-RPX" Name="Voltimetro_toplevel_timing_summary_routed.rpx"/>
+  <File Type="ROUTE-SIMILARITY" Name="Voltimetro_toplevel_incremental_reuse_routed.rpt"/>
+  <File Type="ROUTE-CLK" Name="Voltimetro_toplevel_clock_utilization_routed.rpt"/>
+  <File Type="ROUTE-BUS-SKEW" Name="Voltimetro_toplevel_bus_skew_routed.rpt"/>
+  <File Type="ROUTE-BUS-SKEW-PB" Name="Voltimetro_toplevel_bus_skew_routed.pb"/>
+  <File Type="ROUTE-BUS-SKEW-RPX" Name="Voltimetro_toplevel_bus_skew_routed.rpx"/>
+  <File Type="POSTROUTE-PHYSOPT-DCP" Name="Voltimetro_toplevel_postroute_physopt.dcp"/>
+  <File Type="POSTROUTE-PHYSOPT-BLACKBOX-DCP" Name="Voltimetro_toplevel_postroute_physopt_bb.dcp"/>
+  <File Type="POSTROUTE-PHYSOPT-TIMING" Name="Voltimetro_toplevel_timing_summary_postroute_physopted.rpt"/>
+  <File Type="POSTROUTE-PHYSOPT-TIMING-PB" Name="Voltimetro_toplevel_timing_summary_postroute_physopted.pb"/>
+  <File Type="POSTROUTE-PHYSOPT-TIMING-RPX" Name="Voltimetro_toplevel_timing_summary_postroute_physopted.rpx"/>
+  <File Type="POSTROUTE-PHYSOPT-BUS-SKEW" Name="Voltimetro_toplevel_bus_skew_postroute_physopted.rpt"/>
+  <File Type="POSTROUTE-PHYSOPT-BUS-SKEW-PB" Name="Voltimetro_toplevel_bus_skew_postroute_physopted.pb"/>
+  <File Type="BG-BIT" Name="Voltimetro_toplevel.bit"/>
+  <File Type="POSTROUTE-PHYSOPT-BUS-SKEW-RPX" Name="Voltimetro_toplevel_bus_skew_postroute_physopted.rpx"/>
+  <File Type="BITSTR-RBT" Name="Voltimetro_toplevel.rbt"/>
+  <File Type="BITSTR-NKY" Name="Voltimetro_toplevel.nky"/>
+  <File Type="PDI-FILE" Name="Voltimetro_toplevel.pdi"/>
+  <File Type="RCFI_FILE" Name="Voltimetro_toplevel.rcfi"/>
+  <File Type="CFI_FILE" Name="Voltimetro_toplevel.cfi"/>
+  <File Type="RNPI_FILE" Name="Voltimetro_toplevel.rnpi"/>
+  <File Type="NPI_FILE" Name="Voltimetro_toplevel.npi"/>
+  <File Type="RBD_FILE" Name="Voltimetro_toplevel.rbd"/>
+  <File Type="BITSTR-LTX" Name="debug_nets.ltx"/>
+  <File Type="BITSTR-LTX" Name="Voltimetro_toplevel.ltx"/>
+  <File Type="BITSTR-SYSDEF" Name="Voltimetro_toplevel.sysdef"/>
+  <File Type="BG-BGN" Name="Voltimetro_toplevel.bgn"/>
+  <File Type="BG-DRC" Name="Voltimetro_toplevel.drc"/>
+  <File Type="RDI-RDI" Name="Voltimetro_toplevel.vdi"/>
+  <File Type="WBT-USG" Name="usage_statistics_webtalk.html"/>
+  <FileSet Name="sources" Type="DesignSrcs" RelSrcDir="$PSRCDIR/sources_1" RelGenDir="$PSRCDIR/sources_1">
+    <Filter Type="Srcs"/>
+    <File Path="$PSRCDIR/sources_1/imports/new/FlipFlopD_ena.vhd">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="D:/Documentos_D/1.Documentos Lucas/Academico/Materias Actuales y seminarios/Digital I/TP FINAL LUCAS/Voltimetro_Digital_Lucas_v1/Voltimetro_Digital_Lucas_v1.srcs/sources_1/new/FlipFlopD_ena.vhd"/>
+        <Attr Name="ImportTime" Val="1581866904"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/new/ADC.vhd">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="D:/Documentos_D/1.Documentos Lucas/Academico/Materias Actuales y seminarios/Digital I/TP FINAL LUCAS/Voltimetro_Digital_Lucas_v1/Voltimetro_Digital_Lucas_v1.srcs/sources_1/new/ADC.vhd"/>
+        <Attr Name="ImportTime" Val="1584643228"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/new/Comparator_X.vhd">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="D:/Documentos_D/1.Documentos Lucas/Academico/Materias Actuales y seminarios/Digital I/TP FINAL LUCAS/Voltimetro_Digital_Lucas_v1/Voltimetro_Digital_Lucas_v1.srcs/sources_1/new/Comparator_X.vhd"/>
+        <Attr Name="ImportTime" Val="1576175430"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/new/Counter_33000.vhd">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="D:/Documentos_D/1.Documentos Lucas/Academico/Materias Actuales y seminarios/Digital I/TP FINAL LUCAS/Voltimetro_Digital_Lucas_v1/Voltimetro_Digital_Lucas_v1.srcs/sources_1/new/Counter_33000.vhd"/>
+        <Attr Name="ImportTime" Val="1582051633"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/new/Counter_BCD.vhd">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="D:/Documentos_D/1.Documentos Lucas/Academico/Materias Actuales y seminarios/Digital I/TP FINAL LUCAS/Voltimetro_Digital_Lucas_v1/Voltimetro_Digital_Lucas_v1.srcs/sources_1/new/Counter_BCD.vhd"/>
+        <Attr Name="ImportTime" Val="1582048397"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/new/Counter_BCD_5_digits.vhd">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="D:/Documentos_D/1.Documentos Lucas/Academico/Materias Actuales y seminarios/Digital I/TP FINAL LUCAS/Voltimetro_Digital_Lucas_v1/Voltimetro_Digital_Lucas_v1.srcs/sources_1/new/Counter_BCD_5_digits.vhd"/>
+        <Attr Name="ImportTime" Val="1584636748"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/new/Counter_generic.vhd">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="D:/Documentos_D/1.Documentos Lucas/Academico/Materias Actuales y seminarios/Digital I/TP FINAL LUCAS/Voltimetro_Digital_Lucas_v1/Voltimetro_Digital_Lucas_v1.srcs/sources_1/new/Counter_generic.vhd"/>
+        <Attr Name="ImportTime" Val="1582147150"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/new/Counter_uptoX.vhd">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="D:/Documentos_D/1.Documentos Lucas/Academico/Materias Actuales y seminarios/Digital I/TP FINAL LUCAS/Voltimetro_Digital_Lucas_v1/Voltimetro_Digital_Lucas_v1.srcs/sources_1/new/Counter_uptoX.vhd"/>
+        <Attr Name="ImportTime" Val="1582051246"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/new/Register_BCD_3.vhd">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="D:/Documentos_D/1.Documentos Lucas/Academico/Materias Actuales y seminarios/Digital I/TP FINAL LUCAS/Voltimetro_Digital_Lucas_v1/Voltimetro_Digital_Lucas_v1.srcs/sources_1/new/Register_BCD_3.vhd"/>
+        <Attr Name="ImportTime" Val="1582053930"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/new/VGA.vhd">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="D:/Documentos_D/1.Documentos Lucas/Academico/Materias Actuales y seminarios/Digital I/TP FINAL LUCAS/Voltimetro_Digital_Lucas_v1/Voltimetro_Digital_Lucas_v1.srcs/sources_1/new/VGA.vhd"/>
+        <Attr Name="ImportTime" Val="1576607597"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/new/VGA_H_counter.vhd">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="D:/Documentos_D/1.Documentos Lucas/Academico/Materias Actuales y seminarios/Digital I/TP FINAL LUCAS/Voltimetro_Digital_Lucas_v1/Voltimetro_Digital_Lucas_v1.srcs/sources_1/new/VGA_H_counter.vhd"/>
+        <Attr Name="ImportTime" Val="1582902441"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/new/VGA_H_sync.vhd">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="D:/Documentos_D/1.Documentos Lucas/Academico/Materias Actuales y seminarios/Digital I/TP FINAL LUCAS/Voltimetro_Digital_Lucas_v1/Voltimetro_Digital_Lucas_v1.srcs/sources_1/new/VGA_H_sync.vhd"/>
+        <Attr Name="ImportTime" Val="1582922168"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/new/VGA_V_counter.vhd">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="D:/Documentos_D/1.Documentos Lucas/Academico/Materias Actuales y seminarios/Digital I/TP FINAL LUCAS/Voltimetro_Digital_Lucas_v1/Voltimetro_Digital_Lucas_v1.srcs/sources_1/new/VGA_V_counter.vhd"/>
+        <Attr Name="ImportTime" Val="1582922832"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/new/VGA_V_sync.vhd">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="D:/Documentos_D/1.Documentos Lucas/Academico/Materias Actuales y seminarios/Digital I/TP FINAL LUCAS/Voltimetro_Digital_Lucas_v1/Voltimetro_Digital_Lucas_v1.srcs/sources_1/new/VGA_V_sync.vhd"/>
+        <Attr Name="ImportTime" Val="1582929985"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/new/VGA_data_gen.vhd">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="D:/Documentos_D/1.Documentos Lucas/Academico/Materias Actuales y seminarios/Digital I/TP FINAL LUCAS/Voltimetro_Digital_Lucas_v1/Voltimetro_Digital_Lucas_v1.srcs/sources_1/new/VGA_data_gen.vhd"/>
+        <Attr Name="ImportTime" Val="1584637187"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/new/VGA_rgb_gen.vhd">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="D:/Documentos_D/1.Documentos Lucas/Academico/Materias Actuales y seminarios/Digital I/TP FINAL LUCAS/Voltimetro_Digital_Lucas_v1/Voltimetro_Digital_Lucas_v1.srcs/sources_1/new/VGA_rgb_gen.vhd"/>
+        <Attr Name="ImportTime" Val="1576701908"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/new/VGA_sync_control.vhd">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="D:/Documentos_D/1.Documentos Lucas/Academico/Materias Actuales y seminarios/Digital I/TP FINAL LUCAS/Voltimetro_Digital_Lucas_v1/Voltimetro_Digital_Lucas_v1.srcs/sources_1/new/VGA_sync_control.vhd"/>
+        <Attr Name="ImportTime" Val="1576716835"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/new/Visible_flag_generator.vhd">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="D:/Documentos_D/1.Documentos Lucas/Academico/Materias Actuales y seminarios/Digital I/TP FINAL LUCAS/Voltimetro_Digital_Lucas_v1/Voltimetro_Digital_Lucas_v1.srcs/sources_1/new/Visible_flag_generator.vhd"/>
+        <Attr Name="ImportTime" Val="1583778038"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/Escritorio/Voltimetro_dac_pwm.vhd">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../Voltimetro_dac_pwm.vhd"/>
+        <Attr Name="ImportTime" Val="1614568938"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/new/Voltmeter_top.vhd">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="D:/Documentos_D/1.Documentos Lucas/Academico/Materias Actuales y seminarios/Digital I/TP FINAL LUCAS/Voltimetro_Digital_Lucas_v1/Voltimetro_Digital_Lucas_v1.srcs/sources_1/new/Voltmeter_top.vhd"/>
+        <Attr Name="ImportTime" Val="1584638303"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/new/X_generator.vhd">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="D:/Documentos_D/1.Documentos Lucas/Academico/Materias Actuales y seminarios/Digital I/TP FINAL LUCAS/Voltimetro_Digital_Lucas_v1/Voltimetro_Digital_Lucas_v1.srcs/sources_1/new/X_generator.vhd"/>
+        <Attr Name="ImportTime" Val="1576192227"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/new/font_rom.vhd">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="D:/Documentos_D/1.Documentos Lucas/Academico/Materias Actuales y seminarios/Digital I/TP FINAL LUCAS/Voltimetro_Digital_Lucas_v1/Voltimetro_Digital_Lucas_v1.srcs/sources_1/new/font_rom.vhd"/>
+        <Attr Name="ImportTime" Val="1584630301"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/new/mux_4_in.vhd">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="D:/Documentos_D/1.Documentos Lucas/Academico/Materias Actuales y seminarios/Digital I/TP FINAL LUCAS/Voltimetro_Digital_Lucas_v1/Voltimetro_Digital_Lucas_v1.srcs/sources_1/new/mux_4_in.vhd"/>
+        <Attr Name="ImportTime" Val="1582141594"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/new/mux_8_in.vhd">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="D:/Documentos_D/1.Documentos Lucas/Academico/Materias Actuales y seminarios/Digital I/TP FINAL LUCAS/Voltimetro_Digital_Lucas_v1/Voltimetro_Digital_Lucas_v1.srcs/sources_1/new/mux_8_in.vhd"/>
+        <Attr Name="ImportTime" Val="1576605599"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/new/mux_bin_gen.vhd">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="D:/Documentos_D/1.Documentos Lucas/Academico/Materias Actuales y seminarios/Digital I/TP FINAL LUCAS/Voltimetro_Digital_Lucas_v1/Voltimetro_Digital_Lucas_v1.srcs/sources_1/new/mux_bin_gen.vhd"/>
+        <Attr Name="ImportTime" Val="1576605819"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/Escritorio/Voltimetro_Esquema_Arty_A7-35_top_level.vhd">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../Voltimetro_Esquema_Arty_A7-35_top_level.vhd"/>
+        <Attr Name="ImportTime" Val="1614568050"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/new/FlipFlopD.vhd">
+      <FileInfo>
+        <Attr Name="AutoDisabled" Val="1"/>
+        <Attr Name="ImportPath" Val="D:/Documentos_D/1.Documentos Lucas/Academico/Materias Actuales y seminarios/Digital I/TP FINAL LUCAS/Voltimetro_Digital_Lucas_v1/Voltimetro_Digital_Lucas_v1.srcs/sources_1/new/FlipFlopD.vhd"/>
+        <Attr Name="ImportTime" Val="1581865254"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/new/Comparator_simple.vhd">
+      <FileInfo>
+        <Attr Name="AutoDisabled" Val="1"/>
+        <Attr Name="ImportPath" Val="D:/Documentos_D/1.Documentos Lucas/Academico/Materias Actuales y seminarios/Digital I/TP FINAL LUCAS/Voltimetro_Digital_Lucas_v1/Voltimetro_Digital_Lucas_v1.srcs/sources_1/new/Comparator_simple.vhd"/>
+        <Attr Name="ImportTime" Val="1576179236"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/new/Counter_generic_bis.vhd">
+      <FileInfo>
+        <Attr Name="AutoDisabled" Val="1"/>
+        <Attr Name="ImportPath" Val="D:/Documentos_D/1.Documentos Lucas/Academico/Materias Actuales y seminarios/Digital I/TP FINAL LUCAS/Voltimetro_Digital_Lucas_v1/Voltimetro_Digital_Lucas_v1.srcs/sources_1/new/Counter_generic_bis.vhd"/>
+        <Attr Name="ImportTime" Val="1581866981"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <Config>
+      <Option Name="DesignMode" Val="RTL"/>
+      <Option Name="TopModule" Val="Voltimetro_toplevel"/>
+      <Option Name="TopAutoSet" Val="TRUE"/>
+    </Config>
+  </FileSet>
+  <FileSet Name="constrs_in" Type="Constrs" RelSrcDir="$PSRCDIR/constrs_1">
+    <Filter Type="Constrs"/>
+    <File Path="$PSRCDIR/constrs_1/imports/Prueba_TP_ED1/Archivo de restricciones Arty-A7-35.xdc">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/Archivo de restricciones Arty-A7-35.xdc"/>
+        <Attr Name="ImportTime" Val="1564180612"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+      </FileInfo>
+    </File>
+    <Config>
+      <Option Name="ConstrsType" Val="XDC"/>
+    </Config>
+  </FileSet>
+  <FileSet Name="utils" Type="Utils" RelSrcDir="$PSRCDIR/utils_1">
+    <Filter Type="Utils"/>
+    <Config>
+      <Option Name="TopAutoSet" Val="TRUE"/>
+    </Config>
+  </FileSet>
+  <Strategy Version="1" Minor="2">
+    <StratHandle Name="Vivado Implementation Defaults" Flow="Vivado Implementation 2019"/>
+    <Step Id="init_design"/>
+    <Step Id="opt_design"/>
+    <Step Id="power_opt_design"/>
+    <Step Id="place_design"/>
+    <Step Id="post_place_power_opt_design"/>
+    <Step Id="phys_opt_design" EnableStepBool="1"/>
+    <Step Id="route_design"/>
+    <Step Id="post_route_phys_opt_design"/>
+    <Step Id="write_bitstream"/>
+  </Strategy>
+  <BlockFileSet Type="BlockSrcs" Name="clk_wiz_0"/>
+</GenRun>

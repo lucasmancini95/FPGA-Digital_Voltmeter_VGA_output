@@ -1,0 +1,92 @@
+Copyright 1986-2020 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2020.2 (win64) Build 3064766 Wed Nov 18 09:12:45 MST 2020
+| Date         : Sat Mar 13 19:40:27 2021
+| Host         : DESKTOP-V2V80JQ running 64-bit major release  (build 9200)
+| Command      : report_control_sets -verbose -file Voltimetro_toplevel_control_sets_placed.rpt
+| Design       : Voltimetro_toplevel
+| Device       : xc7a35ti
+------------------------------------------------------------------------------------------------
+
+Control Set Information
+
+Table of Contents
+-----------------
+1. Summary
+2. Histogram
+3. Flip-Flop Distribution
+4. Detailed Control Set Information
+
+1. Summary
+----------
+
++----------------------------------------------------------+-------+
+|                          Status                          | Count |
++----------------------------------------------------------+-------+
+| Total control sets                                       |    14 |
+|    Minimum number of control sets                        |    14 |
+|    Addition due to synthesis replication                 |     0 |
+|    Addition due to physical synthesis replication        |     0 |
+| Unused register locations in slices containing registers |    60 |
++----------------------------------------------------------+-------+
+* Control sets can be merged at opt_design using control_set_merge or merge_equivalent_drivers
+** Run report_qor_suggestions for automated merging and remapping suggestions
+
+
+2. Histogram
+------------
+
++--------------------+-------+
+|       Fanout       | Count |
++--------------------+-------+
+| Total control sets |    14 |
+| >= 0 to < 4        |     3 |
+| >= 4 to < 6        |     6 |
+| >= 6 to < 8        |     0 |
+| >= 8 to < 10       |     0 |
+| >= 10 to < 12      |     2 |
+| >= 12 to < 14      |     1 |
+| >= 14 to < 16      |     0 |
+| >= 16              |     2 |
++--------------------+-------+
+* Control sets can be remapped at either synth_design or opt_design
+
+
+3. Flip-Flop Distribution
+-------------------------
+
++--------------+-----------------------+------------------------+-----------------+--------------+
+| Clock Enable | Synchronous Set/Reset | Asynchronous Set/Reset | Total Registers | Total Slices |
++--------------+-----------------------+------------------------+-----------------+--------------+
+| No           | No                    | No                     |               1 |            1 |
+| No           | No                    | Yes                    |               0 |            0 |
+| No           | Yes                   | No                     |              66 |           21 |
+| Yes          | No                    | No                     |               0 |            0 |
+| Yes          | No                    | Yes                    |               0 |            0 |
+| Yes          | Yes                   | No                     |              49 |           17 |
++--------------+-----------------------+------------------------+-----------------+--------------+
+
+
+4. Detailed Control Set Information
+-----------------------------------
+
++-----------------------------+----------------------------------------------------------------------------------------------------------------------------------------------------------+-------------------------------------------------------------------------------------------------------------------------------------------------------+------------------+----------------+--------------+
+|         Clock Signal        |                                                                       Enable Signal                                                                      |                                                                    Set/Reset Signal                                                                   | Slice Load Count | Bel Load Count | Bels / Slice |
++-----------------------------+----------------------------------------------------------------------------------------------------------------------------------------------------------+-------------------------------------------------------------------------------------------------------------------------------------------------------+------------------+----------------+--------------+
+|  clk25MHz_gen/inst/clk_out1 |                                                                                                                                                          |                                                                                                                                                       |                1 |              1 |         1.00 |
+|  clk25MHz_gen/inst/clk_out1 | inst_voltimetro/VGA_inst/VGA_sync_control_inst/VGA_H_sync_inst/VGA_H_counter_inst/Counter_generic_10b/gen_counter[5].gen_counter_2_to_N.insti/inf_edge   | inst_voltimetro/VGA_inst/VGA_sync_control_inst/VGA_H_sync_inst/VGA_H_counter_inst/Counter_generic_10b/gen_counter[2].gen_counter_2_to_N.insti/Q_reg_1 |                1 |              1 |         1.00 |
+|  clk25MHz_gen/inst/clk_out1 | inst_voltimetro/VGA_inst/VGA_sync_control_inst/VGA_V_sync_inst/VGA_V_counter_inst/Counter_generic_10b/gen_counter[7].gen_counter_2_to_N.insti/inf_edge   | inst_voltimetro/VGA_inst/VGA_sync_control_inst/VGA_V_sync_inst/VGA_V_counter_inst/Counter_generic_10b/gen_counter[5].gen_counter_2_to_N.insti/Q_reg_1 |                1 |              1 |         1.00 |
+|  clk25MHz_gen/inst/clk_out1 | inst_voltimetro/ADC_inst/Counter_BCD_5_digits_inst/Counter_BCD_inst_2/Counter_generic_inst/gen_counter[1].gen_counter_2_to_N.insti/count_in3_out         | inst_voltimetro/ADC_inst/Counter_BCD_5_digits_inst/Counter_BCD_inst_3/Counter_generic_inst/gen_counter[0].gen_counter_1.inst1/Q_reg_1                 |                1 |              4 |         4.00 |
+|  clk25MHz_gen/inst/clk_out1 | inst_voltimetro/ADC_inst/Counter_BCD_5_digits_inst/Counter_BCD_inst_4/Counter_generic_inst/gen_counter[2].gen_counter_2_to_N.insti/count_in5_out         | inst_voltimetro/ADC_inst/Counter_BCD_5_digits_inst/Counter_BCD_inst_4/Counter_generic_inst/gen_counter[3].gen_counter_2_to_N.insti/Q_reg_1            |                1 |              4 |         4.00 |
+|  clk25MHz_gen/inst/clk_out1 | inst_voltimetro/ADC_inst/Counter_BCD_5_digits_inst/Counter_BCD_inst_3/Counter_generic_inst/gen_counter[0].gen_counter_1.inst1/count_in4_out              | inst_voltimetro/ADC_inst/Counter_BCD_5_digits_inst/Counter_BCD_inst_4/Counter_generic_inst/gen_counter[2].gen_counter_2_to_N.insti/Q_reg_1            |                1 |              4 |         4.00 |
+|  clk25MHz_gen/inst/clk_out1 | inst_voltimetro/sigma_delta_inst/count_in1_out                                                                                                           | inst_voltimetro/ADC_inst/Counter_BCD_5_digits_inst/Counter_BCD_inst_1/Counter_generic_inst/gen_counter[1].gen_counter_2_to_N.insti/Q_reg_1            |                2 |              4 |         2.00 |
+|  clk25MHz_gen/inst/clk_out1 | inst_voltimetro/ADC_inst/Counter_BCD_5_digits_inst/Counter_BCD_inst_1/Counter_generic_inst/gen_counter[1].gen_counter_2_to_N.insti/count_in2_out         | inst_voltimetro/ADC_inst/ffd_ins/Q_reg_1                                                                                                              |                1 |              4 |         4.00 |
+|  clk25MHz_gen/inst/clk_out1 | pwm_in                                                                                                                                                   | rst_i_IBUF                                                                                                                                            |                1 |              5 |         5.00 |
+|  clk25MHz_gen/inst/clk_out1 |                                                                                                                                                          | inst_voltimetro/VGA_inst/VGA_sync_control_inst/VGA_H_sync_inst/VGA_H_counter_inst/Counter_generic_10b/gen_counter[5].gen_counter_2_to_N.insti/Q_reg_0 |                5 |             10 |         2.00 |
+|  clk25MHz_gen/inst/clk_out1 | inst_voltimetro/VGA_inst/VGA_sync_control_inst/VGA_H_sync_inst/VGA_H_counter_inst/Counter_generic_10b/gen_counter[5].gen_counter_2_to_N.insti/s_enable_V | inst_voltimetro/VGA_inst/VGA_sync_control_inst/VGA_V_sync_inst/VGA_V_counter_inst/Counter_generic_10b/gen_counter[6].gen_counter_2_to_N.insti/Q_reg_1 |                5 |             10 |         2.00 |
+|  clk25MHz_gen/inst/clk_out1 | inst_voltimetro/ADC_inst/Counter_33000_inst/Counter_uptoX_inst/Counter_generic_inst/gen_counter[12].gen_counter_2_to_N.insti/s_flag                      | rst_i_IBUF                                                                                                                                            |                3 |             12 |         4.00 |
+|  clk25MHz_gen/inst/clk_out1 |                                                                                                                                                          | inst_voltimetro/ADC_inst/Counter_33000_inst/Counter_uptoX_inst/Counter_generic_inst/gen_counter[12].gen_counter_2_to_N.insti/Q_reg_1                  |                5 |             16 |         3.20 |
+|  clk25MHz_gen/inst/clk_out1 |                                                                                                                                                          | rst_i_IBUF                                                                                                                                            |               11 |             40 |         3.64 |
++-----------------------------+----------------------------------------------------------------------------------------------------------------------------------------------------------+-------------------------------------------------------------------------------------------------------------------------------------------------------+------------------+----------------+--------------+
+
+
