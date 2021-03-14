@@ -1,4 +1,0 @@
--En el ADC --> en el BCD 5 dig --> cambie digito_1 por digito_3
-ya que los valores estaban saliendo rotados y donde estaba el ultimo digito estab el primer digito
--en la rom hice una rotacion de la salida, que afecta al "pixel" de salida, esto porque los numeros estaban saliendo espejados
--obs: nico me dijo que se quedaba fijo en 3.3, eso es porque lo que habia cambiado del ADC en la version N1, no lo puse en la N2, aca, en la N3 ya lo tiene (Es el flip fliop entre el contador de 33k y el contador de 5 digitos bcd) 

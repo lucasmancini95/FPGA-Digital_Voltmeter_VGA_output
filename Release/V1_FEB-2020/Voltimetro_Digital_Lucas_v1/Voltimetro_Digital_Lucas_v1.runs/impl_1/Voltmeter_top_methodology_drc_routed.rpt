@@ -1,0 +1,355 @@
+Copyright 1986-2019 Xilinx, Inc. All Rights Reserved.
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2019.1 (win64) Build 2552052 Fri May 24 14:49:42 MDT 2019
+| Date         : Mon Mar  9 15:49:13 2020
+| Host         : DESKTOP-JJK40NT running 64-bit major release  (build 9200)
+| Command      : report_methodology -file Voltmeter_top_methodology_drc_routed.rpt -pb Voltmeter_top_methodology_drc_routed.pb -rpx Voltmeter_top_methodology_drc_routed.rpx
+| Design       : Voltmeter_top
+| Device       : xc7a35ticsg324-1L
+| Speed File   : -1L
+| Design State : Fully Routed
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+Report Methodology
+
+Table of Contents
+-----------------
+1. REPORT SUMMARY
+2. REPORT DETAILS
+
+1. REPORT SUMMARY
+-----------------
+            Netlist: netlist
+          Floorplan: design_1
+      Design limits: <entire design considered>
+             Max violations: <unlimited>
+             Violations found: 64
++-----------+------------------+-----------------------------+------------+
+| Rule      | Severity         | Description                 | Violations |
++-----------+------------------+-----------------------------+------------+
+| TIMING-17 | Critical Warning | Non-clocked sequential cell | 64         |
++-----------+------------------+-----------------------------+------------+
+
+2. REPORT DETAILS
+-----------------
+TIMING-17#1 Critical Warning
+Non-clocked sequential cell  
+The clock pin ADC_inst/Counter_33000_inst/Counter_uptoX_inst/Counter_generic_inst/gen_counter[0].gen_counter_1.inst1/Q_reg/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#2 Critical Warning
+Non-clocked sequential cell  
+The clock pin ADC_inst/Counter_33000_inst/Counter_uptoX_inst/Counter_generic_inst/gen_counter[10].gen_counter_2_to_N.insti/Q_reg/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#3 Critical Warning
+Non-clocked sequential cell  
+The clock pin ADC_inst/Counter_33000_inst/Counter_uptoX_inst/Counter_generic_inst/gen_counter[11].gen_counter_2_to_N.insti/Q_reg/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#4 Critical Warning
+Non-clocked sequential cell  
+The clock pin ADC_inst/Counter_33000_inst/Counter_uptoX_inst/Counter_generic_inst/gen_counter[12].gen_counter_2_to_N.insti/Q_reg/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#5 Critical Warning
+Non-clocked sequential cell  
+The clock pin ADC_inst/Counter_33000_inst/Counter_uptoX_inst/Counter_generic_inst/gen_counter[13].gen_counter_2_to_N.insti/Q_reg/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#6 Critical Warning
+Non-clocked sequential cell  
+The clock pin ADC_inst/Counter_33000_inst/Counter_uptoX_inst/Counter_generic_inst/gen_counter[14].gen_counter_2_to_N.insti/Q_reg/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#7 Critical Warning
+Non-clocked sequential cell  
+The clock pin ADC_inst/Counter_33000_inst/Counter_uptoX_inst/Counter_generic_inst/gen_counter[15].gen_counter_2_to_N.insti/Q_reg/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#8 Critical Warning
+Non-clocked sequential cell  
+The clock pin ADC_inst/Counter_33000_inst/Counter_uptoX_inst/Counter_generic_inst/gen_counter[1].gen_counter_2_to_N.insti/Q_reg/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#9 Critical Warning
+Non-clocked sequential cell  
+The clock pin ADC_inst/Counter_33000_inst/Counter_uptoX_inst/Counter_generic_inst/gen_counter[2].gen_counter_2_to_N.insti/Q_reg/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#10 Critical Warning
+Non-clocked sequential cell  
+The clock pin ADC_inst/Counter_33000_inst/Counter_uptoX_inst/Counter_generic_inst/gen_counter[3].gen_counter_2_to_N.insti/Q_reg/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#11 Critical Warning
+Non-clocked sequential cell  
+The clock pin ADC_inst/Counter_33000_inst/Counter_uptoX_inst/Counter_generic_inst/gen_counter[4].gen_counter_2_to_N.insti/Q_reg/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#12 Critical Warning
+Non-clocked sequential cell  
+The clock pin ADC_inst/Counter_33000_inst/Counter_uptoX_inst/Counter_generic_inst/gen_counter[5].gen_counter_2_to_N.insti/Q_reg/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#13 Critical Warning
+Non-clocked sequential cell  
+The clock pin ADC_inst/Counter_33000_inst/Counter_uptoX_inst/Counter_generic_inst/gen_counter[6].gen_counter_2_to_N.insti/Q_reg/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#14 Critical Warning
+Non-clocked sequential cell  
+The clock pin ADC_inst/Counter_33000_inst/Counter_uptoX_inst/Counter_generic_inst/gen_counter[7].gen_counter_2_to_N.insti/Q_reg/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#15 Critical Warning
+Non-clocked sequential cell  
+The clock pin ADC_inst/Counter_33000_inst/Counter_uptoX_inst/Counter_generic_inst/gen_counter[8].gen_counter_2_to_N.insti/Q_reg/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#16 Critical Warning
+Non-clocked sequential cell  
+The clock pin ADC_inst/Counter_33000_inst/Counter_uptoX_inst/Counter_generic_inst/gen_counter[9].gen_counter_2_to_N.insti/Q_reg/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#17 Critical Warning
+Non-clocked sequential cell  
+The clock pin ADC_inst/Counter_BCD_5_digits_inst/Counter_BCD_inst_1/Counter_generic_inst/gen_counter[0].gen_counter_1.inst1/Q_reg/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#18 Critical Warning
+Non-clocked sequential cell  
+The clock pin ADC_inst/Counter_BCD_5_digits_inst/Counter_BCD_inst_1/Counter_generic_inst/gen_counter[1].gen_counter_2_to_N.insti/Q_reg/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#19 Critical Warning
+Non-clocked sequential cell  
+The clock pin ADC_inst/Counter_BCD_5_digits_inst/Counter_BCD_inst_1/Counter_generic_inst/gen_counter[2].gen_counter_2_to_N.insti/Q_reg/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#20 Critical Warning
+Non-clocked sequential cell  
+The clock pin ADC_inst/Counter_BCD_5_digits_inst/Counter_BCD_inst_1/Counter_generic_inst/gen_counter[3].gen_counter_2_to_N.insti/Q_reg/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#21 Critical Warning
+Non-clocked sequential cell  
+The clock pin ADC_inst/Counter_BCD_5_digits_inst/Counter_BCD_inst_2/Counter_generic_inst/gen_counter[0].gen_counter_1.inst1/Q_reg/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#22 Critical Warning
+Non-clocked sequential cell  
+The clock pin ADC_inst/Counter_BCD_5_digits_inst/Counter_BCD_inst_2/Counter_generic_inst/gen_counter[1].gen_counter_2_to_N.insti/Q_reg/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#23 Critical Warning
+Non-clocked sequential cell  
+The clock pin ADC_inst/Counter_BCD_5_digits_inst/Counter_BCD_inst_2/Counter_generic_inst/gen_counter[2].gen_counter_2_to_N.insti/Q_reg/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#24 Critical Warning
+Non-clocked sequential cell  
+The clock pin ADC_inst/Counter_BCD_5_digits_inst/Counter_BCD_inst_2/Counter_generic_inst/gen_counter[3].gen_counter_2_to_N.insti/Q_reg/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#25 Critical Warning
+Non-clocked sequential cell  
+The clock pin ADC_inst/Counter_BCD_5_digits_inst/Counter_BCD_inst_3/Counter_generic_inst/gen_counter[0].gen_counter_1.inst1/Q_reg/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#26 Critical Warning
+Non-clocked sequential cell  
+The clock pin ADC_inst/Counter_BCD_5_digits_inst/Counter_BCD_inst_3/Counter_generic_inst/gen_counter[1].gen_counter_2_to_N.insti/Q_reg/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#27 Critical Warning
+Non-clocked sequential cell  
+The clock pin ADC_inst/Counter_BCD_5_digits_inst/Counter_BCD_inst_3/Counter_generic_inst/gen_counter[2].gen_counter_2_to_N.insti/Q_reg/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#28 Critical Warning
+Non-clocked sequential cell  
+The clock pin ADC_inst/Counter_BCD_5_digits_inst/Counter_BCD_inst_3/Counter_generic_inst/gen_counter[3].gen_counter_2_to_N.insti/Q_reg/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#29 Critical Warning
+Non-clocked sequential cell  
+The clock pin ADC_inst/Register_BCD_3_inst/ffds[0].ffd_first_dig.ffd_first_dig_inst/Q_reg/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#30 Critical Warning
+Non-clocked sequential cell  
+The clock pin ADC_inst/Register_BCD_3_inst/ffds[10].ffd_third_dig.ffd_third_dig_inst/Q_reg/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#31 Critical Warning
+Non-clocked sequential cell  
+The clock pin ADC_inst/Register_BCD_3_inst/ffds[11].ffd_third_dig.ffd_third_dig_inst/Q_reg/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#32 Critical Warning
+Non-clocked sequential cell  
+The clock pin ADC_inst/Register_BCD_3_inst/ffds[1].ffd_first_dig.ffd_first_dig_inst/Q_reg/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#33 Critical Warning
+Non-clocked sequential cell  
+The clock pin ADC_inst/Register_BCD_3_inst/ffds[2].ffd_first_dig.ffd_first_dig_inst/Q_reg/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#34 Critical Warning
+Non-clocked sequential cell  
+The clock pin ADC_inst/Register_BCD_3_inst/ffds[3].ffd_first_dig.ffd_first_dig_inst/Q_reg/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#35 Critical Warning
+Non-clocked sequential cell  
+The clock pin ADC_inst/Register_BCD_3_inst/ffds[4].ffd_second_dig.ffd_second_dig_inst/Q_reg/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#36 Critical Warning
+Non-clocked sequential cell  
+The clock pin ADC_inst/Register_BCD_3_inst/ffds[5].ffd_second_dig.ffd_second_dig_inst/Q_reg/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#37 Critical Warning
+Non-clocked sequential cell  
+The clock pin ADC_inst/Register_BCD_3_inst/ffds[6].ffd_second_dig.ffd_second_dig_inst/Q_reg/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#38 Critical Warning
+Non-clocked sequential cell  
+The clock pin ADC_inst/Register_BCD_3_inst/ffds[7].ffd_second_dig.ffd_second_dig_inst/Q_reg/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#39 Critical Warning
+Non-clocked sequential cell  
+The clock pin ADC_inst/Register_BCD_3_inst/ffds[8].ffd_third_dig.ffd_third_dig_inst/Q_reg/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#40 Critical Warning
+Non-clocked sequential cell  
+The clock pin ADC_inst/Register_BCD_3_inst/ffds[9].ffd_third_dig.ffd_third_dig_inst/Q_reg/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#41 Critical Warning
+Non-clocked sequential cell  
+The clock pin Clock_voltmeter_inst/clock_out_reg/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#42 Critical Warning
+Non-clocked sequential cell  
+The clock pin Clock_voltmeter_inst/s_clock_out_reg/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#43 Critical Warning
+Non-clocked sequential cell  
+The clock pin VGA_inst/VGA_sync_control_inst/VGA_H_sync_inst/FlipFlopD_inst/Q_reg/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#44 Critical Warning
+Non-clocked sequential cell  
+The clock pin VGA_inst/VGA_sync_control_inst/VGA_H_sync_inst/VGA_H_counter_inst/Counter_generic_10b/gen_counter[0].gen_counter_1.inst1/Q_reg/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#45 Critical Warning
+Non-clocked sequential cell  
+The clock pin VGA_inst/VGA_sync_control_inst/VGA_H_sync_inst/VGA_H_counter_inst/Counter_generic_10b/gen_counter[1].gen_counter_2_to_N.insti/Q_reg/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#46 Critical Warning
+Non-clocked sequential cell  
+The clock pin VGA_inst/VGA_sync_control_inst/VGA_H_sync_inst/VGA_H_counter_inst/Counter_generic_10b/gen_counter[2].gen_counter_2_to_N.insti/Q_reg/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#47 Critical Warning
+Non-clocked sequential cell  
+The clock pin VGA_inst/VGA_sync_control_inst/VGA_H_sync_inst/VGA_H_counter_inst/Counter_generic_10b/gen_counter[3].gen_counter_2_to_N.insti/Q_reg/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#48 Critical Warning
+Non-clocked sequential cell  
+The clock pin VGA_inst/VGA_sync_control_inst/VGA_H_sync_inst/VGA_H_counter_inst/Counter_generic_10b/gen_counter[4].gen_counter_2_to_N.insti/Q_reg/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#49 Critical Warning
+Non-clocked sequential cell  
+The clock pin VGA_inst/VGA_sync_control_inst/VGA_H_sync_inst/VGA_H_counter_inst/Counter_generic_10b/gen_counter[5].gen_counter_2_to_N.insti/Q_reg/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#50 Critical Warning
+Non-clocked sequential cell  
+The clock pin VGA_inst/VGA_sync_control_inst/VGA_H_sync_inst/VGA_H_counter_inst/Counter_generic_10b/gen_counter[6].gen_counter_2_to_N.insti/Q_reg/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#51 Critical Warning
+Non-clocked sequential cell  
+The clock pin VGA_inst/VGA_sync_control_inst/VGA_H_sync_inst/VGA_H_counter_inst/Counter_generic_10b/gen_counter[7].gen_counter_2_to_N.insti/Q_reg/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#52 Critical Warning
+Non-clocked sequential cell  
+The clock pin VGA_inst/VGA_sync_control_inst/VGA_H_sync_inst/VGA_H_counter_inst/Counter_generic_10b/gen_counter[8].gen_counter_2_to_N.insti/Q_reg/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#53 Critical Warning
+Non-clocked sequential cell  
+The clock pin VGA_inst/VGA_sync_control_inst/VGA_H_sync_inst/VGA_H_counter_inst/Counter_generic_10b/gen_counter[9].gen_counter_2_to_N.insti/Q_reg/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#54 Critical Warning
+Non-clocked sequential cell  
+The clock pin VGA_inst/VGA_sync_control_inst/VGA_V_sync_inst/FlipFlopD_inst/Q_reg/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#55 Critical Warning
+Non-clocked sequential cell  
+The clock pin VGA_inst/VGA_sync_control_inst/VGA_V_sync_inst/VGA_V_counter_inst/Counter_generic_10b/gen_counter[0].gen_counter_1.inst1/Q_reg/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#56 Critical Warning
+Non-clocked sequential cell  
+The clock pin VGA_inst/VGA_sync_control_inst/VGA_V_sync_inst/VGA_V_counter_inst/Counter_generic_10b/gen_counter[1].gen_counter_2_to_N.insti/Q_reg/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#57 Critical Warning
+Non-clocked sequential cell  
+The clock pin VGA_inst/VGA_sync_control_inst/VGA_V_sync_inst/VGA_V_counter_inst/Counter_generic_10b/gen_counter[2].gen_counter_2_to_N.insti/Q_reg/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#58 Critical Warning
+Non-clocked sequential cell  
+The clock pin VGA_inst/VGA_sync_control_inst/VGA_V_sync_inst/VGA_V_counter_inst/Counter_generic_10b/gen_counter[3].gen_counter_2_to_N.insti/Q_reg/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#59 Critical Warning
+Non-clocked sequential cell  
+The clock pin VGA_inst/VGA_sync_control_inst/VGA_V_sync_inst/VGA_V_counter_inst/Counter_generic_10b/gen_counter[4].gen_counter_2_to_N.insti/Q_reg/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#60 Critical Warning
+Non-clocked sequential cell  
+The clock pin VGA_inst/VGA_sync_control_inst/VGA_V_sync_inst/VGA_V_counter_inst/Counter_generic_10b/gen_counter[5].gen_counter_2_to_N.insti/Q_reg/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#61 Critical Warning
+Non-clocked sequential cell  
+The clock pin VGA_inst/VGA_sync_control_inst/VGA_V_sync_inst/VGA_V_counter_inst/Counter_generic_10b/gen_counter[6].gen_counter_2_to_N.insti/Q_reg/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#62 Critical Warning
+Non-clocked sequential cell  
+The clock pin VGA_inst/VGA_sync_control_inst/VGA_V_sync_inst/VGA_V_counter_inst/Counter_generic_10b/gen_counter[7].gen_counter_2_to_N.insti/Q_reg/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#63 Critical Warning
+Non-clocked sequential cell  
+The clock pin VGA_inst/VGA_sync_control_inst/VGA_V_sync_inst/VGA_V_counter_inst/Counter_generic_10b/gen_counter[8].gen_counter_2_to_N.insti/Q_reg/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#64 Critical Warning
+Non-clocked sequential cell  
+The clock pin VGA_inst/VGA_sync_control_inst/VGA_V_sync_inst/VGA_V_counter_inst/Counter_generic_10b/gen_counter[9].gen_counter_2_to_N.insti/Q_reg/C is not reached by a timing clock
+Related violations: <none>
+
+

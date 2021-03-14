@@ -1,0 +1,32 @@
+# compile vhdl design source files
+vhdl xil_defaultlib  \
+"../../../../Voltimetro_Digital_Lucas_v1.srcs/sources_1/new/Voltmeter_top.vhd" \
+"../../../../Voltimetro_Digital_Lucas_v1.srcs/sources_1/new/Clock_voltmeter.vhd" \
+"../../../../Voltimetro_Digital_Lucas_v1.srcs/sources_1/new/ADC.vhd" \
+"../../../../Voltimetro_Digital_Lucas_v1.srcs/sources_1/new/VGA.vhd" \
+"../../../../Voltimetro_Digital_Lucas_v1.srcs/sources_1/new/FlipFlopD.vhd" \
+"../../../../Voltimetro_Digital_Lucas_v1.srcs/sources_1/new/Counter_BCD_5_digits.vhd" \
+"../../../../Voltimetro_Digital_Lucas_v1.srcs/sources_1/new/Counter_generic.vhd" \
+"../../../../Voltimetro_Digital_Lucas_v1.srcs/sources_1/new/Comparator_X.vhd" \
+"../../../../Voltimetro_Digital_Lucas_v1.srcs/sources_1/new/Comparator_simple.vhd" \
+"../../../../Voltimetro_Digital_Lucas_v1.srcs/sources_1/new/Counter_33000.vhd" \
+"../../../../Voltimetro_Digital_Lucas_v1.srcs/sources_1/new/Counter_uptoX.vhd" \
+"../../../../Voltimetro_Digital_Lucas_v1.srcs/sources_1/new/X_generator.vhd" \
+"../../../../Voltimetro_Digital_Lucas_v1.srcs/sources_1/new/Counter_BCD.vhd" \
+"../../../../Voltimetro_Digital_Lucas_v1.srcs/sources_1/new/Register_BCD_3.vhd" \
+"../../../../Voltimetro_Digital_Lucas_v1.srcs/sources_1/new/VGA_sync_control.vhd" \
+"../../../../Voltimetro_Digital_Lucas_v1.srcs/sources_1/new/VGA_data_gen.vhd" \
+"../../../../Voltimetro_Digital_Lucas_v1.srcs/sources_1/new/mux_8_in.vhd" \
+"../../../../Voltimetro_Digital_Lucas_v1.srcs/sources_1/new/mux_4_in.vhd" \
+"../../../../Voltimetro_Digital_Lucas_v1.srcs/sources_1/new/mux_bin_gen.vhd" \
+"../../../../Voltimetro_Digital_Lucas_v1.srcs/sources_1/new/font_rom.vhd" \
+"../../../../Voltimetro_Digital_Lucas_v1.srcs/sources_1/new/VGA_rgb_gen.vhd" \
+"../../../../Voltimetro_Digital_Lucas_v1.srcs/sources_1/new/VGA_H_sync.vhd" \
+"../../../../Voltimetro_Digital_Lucas_v1.srcs/sources_1/new/VGA_V_sync.vhd" \
+"../../../../Voltimetro_Digital_Lucas_v1.srcs/sources_1/new/Visible_flag_generator.vhd" \
+"../../../../Voltimetro_Digital_Lucas_v1.srcs/sources_1/new/Counter_generic_bis.vhd" \
+"../../../../Voltimetro_Digital_Lucas_v1.srcs/sources_1/new/FlipFlopD_ena.vhd" \
+"../../../../Voltimetro_Digital_Lucas_v1.srcs/ADC_simulation/new/ADC_tb.vhd" \
+
+# Do not sort compile order
+nosort

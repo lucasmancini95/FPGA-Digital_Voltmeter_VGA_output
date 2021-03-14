@@ -1,0 +1,12 @@
+#-----------------------------------------------------------
+# Webtalk v2019.1 (64-bit)
+# SW Build 2552052 on Fri May 24 14:49:42 MDT 2019
+# IP Build 2548770 on Fri May 24 18:01:18 MDT 2019
+# Start of session at: Thu Dec 19 00:45:08 2019
+# Process ID: 10352
+# Current directory: C:/Users/manci/Desktop/Documentos Lucas/Academico/Materias Actuales y seminarios/Digital I/TP FINAL LUCAS/Voltimetro_Digital_Lucas_v1/Voltimetro_Digital_Lucas_v1.sim/Mux_8_simulation/behav/xsim
+# Command line: wbtcv.exe -mode batch -source C:/Users/manci/Desktop/Documentos Lucas/Academico/Materias Actuales y seminarios/Digital I/TP FINAL LUCAS/Voltimetro_Digital_Lucas_v1/Voltimetro_Digital_Lucas_v1.sim/Mux_8_simulation/behav/xsim/xsim.dir/mux_4_in_TB_behav/webtalk/xsim_webtalk.tcl -notrace
+# Log file: C:/Users/manci/Desktop/Documentos Lucas/Academico/Materias Actuales y seminarios/Digital I/TP FINAL LUCAS/Voltimetro_Digital_Lucas_v1/Voltimetro_Digital_Lucas_v1.sim/Mux_8_simulation/behav/xsim/webtalk.log
+# Journal file: C:/Users/manci/Desktop/Documentos Lucas/Academico/Materias Actuales y seminarios/Digital I/TP FINAL LUCAS/Voltimetro_Digital_Lucas_v1/Voltimetro_Digital_Lucas_v1.sim/Mux_8_simulation/behav/xsim\webtalk.jou
+#-----------------------------------------------------------
+source C:/Users/manci/Desktop/Documentos -notrace

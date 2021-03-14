@@ -1,0 +1,622 @@
+
+*** Running vivado
+    with args -log Voltmeter_top.vds -m64 -product Vivado -mode batch -messageDb vivado.pb -notrace -source Voltmeter_top.tcl
+
+
+****** Vivado v2019.1 (64-bit)
+  **** SW Build 2552052 on Fri May 24 14:49:42 MDT 2019
+  **** IP Build 2548770 on Fri May 24 18:01:18 MDT 2019
+    ** Copyright 1986-2019 Xilinx, Inc. All Rights Reserved.
+
+source Voltmeter_top.tcl -notrace
+create_project: Time (s): cpu = 00:00:01 ; elapsed = 00:05:27 . Memory (MB): peak = 285.516 ; gain = 0.000
+Command: synth_design -top Voltmeter_top -part xc7a35ticsg324-1L
+Starting synth_design
+Attempting to get a license for feature 'Synthesis' and/or device 'xc7a35ti'
+INFO: [Common 17-349] Got license for feature 'Synthesis' and/or device 'xc7a35ti'
+INFO: [Device 21-403] Loading part xc7a35ticsg324-1L
+INFO: Launching helper process for spawning children vivado processes
+INFO: Helper process launched with PID 18396 
+---------------------------------------------------------------------------------
+Starting RTL Elaboration : Time (s): cpu = 00:00:04 ; elapsed = 00:00:06 . Memory (MB): peak = 833.457 ; gain = 178.242
+---------------------------------------------------------------------------------
+INFO: [Synth 8-638] synthesizing module 'Voltmeter_top' [C:/Users/manci/Desktop/Documentos Lucas/Academico/Materias Actuales y seminarios/Digital I/TP FINAL LUCAS/Voltimetro_Digital_Lucas_v1/Voltimetro_Digital_Lucas_v1.srcs/sources_1/new/Voltmeter_top.vhd:57]
+INFO: [Synth 8-3491] module 'Clock_voltmeter' declared at 'C:/Users/manci/Desktop/Documentos Lucas/Academico/Materias Actuales y seminarios/Digital I/TP FINAL LUCAS/Voltimetro_Digital_Lucas_v1/Voltimetro_Digital_Lucas_v1.srcs/sources_1/new/Clock_voltmeter.vhd:40' bound to instance 'Clock_voltmeter_inst' of component 'Clock_voltmeter' [C:/Users/manci/Desktop/Documentos Lucas/Academico/Materias Actuales y seminarios/Digital I/TP FINAL LUCAS/Voltimetro_Digital_Lucas_v1/Voltimetro_Digital_Lucas_v1.srcs/sources_1/new/Voltmeter_top.vhd:96]
+INFO: [Synth 8-638] synthesizing module 'Clock_voltmeter' [C:/Users/manci/Desktop/Documentos Lucas/Academico/Materias Actuales y seminarios/Digital I/TP FINAL LUCAS/Voltimetro_Digital_Lucas_v1/Voltimetro_Digital_Lucas_v1.srcs/sources_1/new/Clock_voltmeter.vhd:46]
+INFO: [Synth 8-256] done synthesizing module 'Clock_voltmeter' (1#1) [C:/Users/manci/Desktop/Documentos Lucas/Academico/Materias Actuales y seminarios/Digital I/TP FINAL LUCAS/Voltimetro_Digital_Lucas_v1/Voltimetro_Digital_Lucas_v1.srcs/sources_1/new/Clock_voltmeter.vhd:46]
+INFO: [Synth 8-3491] module 'ADC' declared at 'C:/Users/manci/Desktop/Documentos Lucas/Academico/Materias Actuales y seminarios/Digital I/TP FINAL LUCAS/Voltimetro_Digital_Lucas_v1/Voltimetro_Digital_Lucas_v1.srcs/sources_1/new/ADC.vhd:38' bound to instance 'ADC_inst' of component 'ADC' [C:/Users/manci/Desktop/Documentos Lucas/Academico/Materias Actuales y seminarios/Digital I/TP FINAL LUCAS/Voltimetro_Digital_Lucas_v1/Voltimetro_Digital_Lucas_v1.srcs/sources_1/new/Voltmeter_top.vhd:103]
+INFO: [Synth 8-638] synthesizing module 'ADC' [C:/Users/manci/Desktop/Documentos Lucas/Academico/Materias Actuales y seminarios/Digital I/TP FINAL LUCAS/Voltimetro_Digital_Lucas_v1/Voltimetro_Digital_Lucas_v1.srcs/sources_1/new/ADC.vhd:52]
+INFO: [Synth 8-3491] module 'Counter_BCD_5_digits' declared at 'C:/Users/manci/Desktop/Documentos Lucas/Academico/Materias Actuales y seminarios/Digital I/TP FINAL LUCAS/Voltimetro_Digital_Lucas_v1/Voltimetro_Digital_Lucas_v1.srcs/sources_1/new/Counter_BCD_5_digits.vhd:34' bound to instance 'Counter_BCD_5_digits_inst' of component 'Counter_BCD_5_digits' [C:/Users/manci/Desktop/Documentos Lucas/Academico/Materias Actuales y seminarios/Digital I/TP FINAL LUCAS/Voltimetro_Digital_Lucas_v1/Voltimetro_Digital_Lucas_v1.srcs/sources_1/new/ADC.vhd:98]
+INFO: [Synth 8-638] synthesizing module 'Counter_BCD_5_digits' [C:/Users/manci/Desktop/Documentos Lucas/Academico/Materias Actuales y seminarios/Digital I/TP FINAL LUCAS/Voltimetro_Digital_Lucas_v1/Voltimetro_Digital_Lucas_v1.srcs/sources_1/new/Counter_BCD_5_digits.vhd:48]
+INFO: [Synth 8-3491] module 'Counter_BCD' declared at 'C:/Users/manci/Desktop/Documentos Lucas/Academico/Materias Actuales y seminarios/Digital I/TP FINAL LUCAS/Voltimetro_Digital_Lucas_v1/Voltimetro_Digital_Lucas_v1.srcs/sources_1/new/Counter_BCD.vhd:34' bound to instance 'Counter_BCD_inst_1' of component 'Counter_BCD' [C:/Users/manci/Desktop/Documentos Lucas/Academico/Materias Actuales y seminarios/Digital I/TP FINAL LUCAS/Voltimetro_Digital_Lucas_v1/Voltimetro_Digital_Lucas_v1.srcs/sources_1/new/Counter_BCD_5_digits.vhd:68]
+INFO: [Synth 8-638] synthesizing module 'Counter_BCD' [C:/Users/manci/Desktop/Documentos Lucas/Academico/Materias Actuales y seminarios/Digital I/TP FINAL LUCAS/Voltimetro_Digital_Lucas_v1/Voltimetro_Digital_Lucas_v1.srcs/sources_1/new/Counter_BCD.vhd:42]
+	Parameter N bound to: 4 - type: integer 
+INFO: [Synth 8-3491] module 'Counter_generic' declared at 'C:/Users/manci/Desktop/Documentos Lucas/Academico/Materias Actuales y seminarios/Digital I/TP FINAL LUCAS/Voltimetro_Digital_Lucas_v1/Voltimetro_Digital_Lucas_v1.srcs/sources_1/new/Counter_generic.vhd:35' bound to instance 'Counter_generic_inst' of component 'Counter_generic' [C:/Users/manci/Desktop/Documentos Lucas/Academico/Materias Actuales y seminarios/Digital I/TP FINAL LUCAS/Voltimetro_Digital_Lucas_v1/Voltimetro_Digital_Lucas_v1.srcs/sources_1/new/Counter_BCD.vhd:77]
+INFO: [Synth 8-638] synthesizing module 'Counter_generic' [C:/Users/manci/Desktop/Documentos Lucas/Academico/Materias Actuales y seminarios/Digital I/TP FINAL LUCAS/Voltimetro_Digital_Lucas_v1/Voltimetro_Digital_Lucas_v1.srcs/sources_1/new/Counter_generic.vhd:45]
+	Parameter N bound to: 4 - type: integer 
+INFO: [Synth 8-3491] module 'FlipFlopD_ena' declared at 'C:/Users/manci/Desktop/Documentos Lucas/Academico/Materias Actuales y seminarios/Digital I/TP FINAL LUCAS/Voltimetro_Digital_Lucas_v1/Voltimetro_Digital_Lucas_v1.srcs/sources_1/new/FlipFlopD_ena.vhd:35' bound to instance 'inst1' of component 'FlipFlopD_ena' [C:/Users/manci/Desktop/Documentos Lucas/Academico/Materias Actuales y seminarios/Digital I/TP FINAL LUCAS/Voltimetro_Digital_Lucas_v1/Voltimetro_Digital_Lucas_v1.srcs/sources_1/new/Counter_generic.vhd:93]
+INFO: [Synth 8-638] synthesizing module 'FlipFlopD_ena' [C:/Users/manci/Desktop/Documentos Lucas/Academico/Materias Actuales y seminarios/Digital I/TP FINAL LUCAS/Voltimetro_Digital_Lucas_v1/Voltimetro_Digital_Lucas_v1.srcs/sources_1/new/FlipFlopD_ena.vhd:55]
+INFO: [Synth 8-256] done synthesizing module 'FlipFlopD_ena' (2#1) [C:/Users/manci/Desktop/Documentos Lucas/Academico/Materias Actuales y seminarios/Digital I/TP FINAL LUCAS/Voltimetro_Digital_Lucas_v1/Voltimetro_Digital_Lucas_v1.srcs/sources_1/new/FlipFlopD_ena.vhd:55]
+INFO: [Synth 8-3491] module 'FlipFlopD_ena' declared at 'C:/Users/manci/Desktop/Documentos Lucas/Academico/Materias Actuales y seminarios/Digital I/TP FINAL LUCAS/Voltimetro_Digital_Lucas_v1/Voltimetro_Digital_Lucas_v1.srcs/sources_1/new/FlipFlopD_ena.vhd:35' bound to instance 'insti' of component 'FlipFlopD_ena' [C:/Users/manci/Desktop/Documentos Lucas/Academico/Materias Actuales y seminarios/Digital I/TP FINAL LUCAS/Voltimetro_Digital_Lucas_v1/Voltimetro_Digital_Lucas_v1.srcs/sources_1/new/Counter_generic.vhd:105]
+INFO: [Synth 8-3491] module 'FlipFlopD_ena' declared at 'C:/Users/manci/Desktop/Documentos Lucas/Academico/Materias Actuales y seminarios/Digital I/TP FINAL LUCAS/Voltimetro_Digital_Lucas_v1/Voltimetro_Digital_Lucas_v1.srcs/sources_1/new/FlipFlopD_ena.vhd:35' bound to instance 'insti' of component 'FlipFlopD_ena' [C:/Users/manci/Desktop/Documentos Lucas/Academico/Materias Actuales y seminarios/Digital I/TP FINAL LUCAS/Voltimetro_Digital_Lucas_v1/Voltimetro_Digital_Lucas_v1.srcs/sources_1/new/Counter_generic.vhd:105]
+INFO: [Synth 8-3491] module 'FlipFlopD_ena' declared at 'C:/Users/manci/Desktop/Documentos Lucas/Academico/Materias Actuales y seminarios/Digital I/TP FINAL LUCAS/Voltimetro_Digital_Lucas_v1/Voltimetro_Digital_Lucas_v1.srcs/sources_1/new/FlipFlopD_ena.vhd:35' bound to instance 'insti' of component 'FlipFlopD_ena' [C:/Users/manci/Desktop/Documentos Lucas/Academico/Materias Actuales y seminarios/Digital I/TP FINAL LUCAS/Voltimetro_Digital_Lucas_v1/Voltimetro_Digital_Lucas_v1.srcs/sources_1/new/Counter_generic.vhd:105]
+INFO: [Synth 8-256] done synthesizing module 'Counter_generic' (3#1) [C:/Users/manci/Desktop/Documentos Lucas/Academico/Materias Actuales y seminarios/Digital I/TP FINAL LUCAS/Voltimetro_Digital_Lucas_v1/Voltimetro_Digital_Lucas_v1.srcs/sources_1/new/Counter_generic.vhd:45]
+	Parameter N bound to: 4 - type: integer 
+INFO: [Synth 8-3491] module 'Comparator_X' declared at 'C:/Users/manci/Desktop/Documentos Lucas/Academico/Materias Actuales y seminarios/Digital I/TP FINAL LUCAS/Voltimetro_Digital_Lucas_v1/Voltimetro_Digital_Lucas_v1.srcs/sources_1/new/Comparator_X.vhd:34' bound to instance 'Comparator_X_inst' of component 'Comparator_X' [C:/Users/manci/Desktop/Documentos Lucas/Academico/Materias Actuales y seminarios/Digital I/TP FINAL LUCAS/Voltimetro_Digital_Lucas_v1/Voltimetro_Digital_Lucas_v1.srcs/sources_1/new/Counter_BCD.vhd:85]
+INFO: [Synth 8-638] synthesizing module 'Comparator_X' [C:/Users/manci/Desktop/Documentos Lucas/Academico/Materias Actuales y seminarios/Digital I/TP FINAL LUCAS/Voltimetro_Digital_Lucas_v1/Voltimetro_Digital_Lucas_v1.srcs/sources_1/new/Comparator_X.vhd:42]
+	Parameter N bound to: 4 - type: integer 
+INFO: [Synth 8-256] done synthesizing module 'Comparator_X' (4#1) [C:/Users/manci/Desktop/Documentos Lucas/Academico/Materias Actuales y seminarios/Digital I/TP FINAL LUCAS/Voltimetro_Digital_Lucas_v1/Voltimetro_Digital_Lucas_v1.srcs/sources_1/new/Comparator_X.vhd:42]
+INFO: [Synth 8-256] done synthesizing module 'Counter_BCD' (5#1) [C:/Users/manci/Desktop/Documentos Lucas/Academico/Materias Actuales y seminarios/Digital I/TP FINAL LUCAS/Voltimetro_Digital_Lucas_v1/Voltimetro_Digital_Lucas_v1.srcs/sources_1/new/Counter_BCD.vhd:42]
+INFO: [Synth 8-3491] module 'Counter_BCD' declared at 'C:/Users/manci/Desktop/Documentos Lucas/Academico/Materias Actuales y seminarios/Digital I/TP FINAL LUCAS/Voltimetro_Digital_Lucas_v1/Voltimetro_Digital_Lucas_v1.srcs/sources_1/new/Counter_BCD.vhd:34' bound to instance 'Counter_BCD_inst_2' of component 'Counter_BCD' [C:/Users/manci/Desktop/Documentos Lucas/Academico/Materias Actuales y seminarios/Digital I/TP FINAL LUCAS/Voltimetro_Digital_Lucas_v1/Voltimetro_Digital_Lucas_v1.srcs/sources_1/new/Counter_BCD_5_digits.vhd:79]
+INFO: [Synth 8-3491] module 'Counter_BCD' declared at 'C:/Users/manci/Desktop/Documentos Lucas/Academico/Materias Actuales y seminarios/Digital I/TP FINAL LUCAS/Voltimetro_Digital_Lucas_v1/Voltimetro_Digital_Lucas_v1.srcs/sources_1/new/Counter_BCD.vhd:34' bound to instance 'Counter_BCD_inst_3' of component 'Counter_BCD' [C:/Users/manci/Desktop/Documentos Lucas/Academico/Materias Actuales y seminarios/Digital I/TP FINAL LUCAS/Voltimetro_Digital_Lucas_v1/Voltimetro_Digital_Lucas_v1.srcs/sources_1/new/Counter_BCD_5_digits.vhd:90]
+INFO: [Synth 8-3491] module 'Counter_BCD' declared at 'C:/Users/manci/Desktop/Documentos Lucas/Academico/Materias Actuales y seminarios/Digital I/TP FINAL LUCAS/Voltimetro_Digital_Lucas_v1/Voltimetro_Digital_Lucas_v1.srcs/sources_1/new/Counter_BCD.vhd:34' bound to instance 'Counter_BCD_inst_4' of component 'Counter_BCD' [C:/Users/manci/Desktop/Documentos Lucas/Academico/Materias Actuales y seminarios/Digital I/TP FINAL LUCAS/Voltimetro_Digital_Lucas_v1/Voltimetro_Digital_Lucas_v1.srcs/sources_1/new/Counter_BCD_5_digits.vhd:101]
+INFO: [Synth 8-3491] module 'Counter_BCD' declared at 'C:/Users/manci/Desktop/Documentos Lucas/Academico/Materias Actuales y seminarios/Digital I/TP FINAL LUCAS/Voltimetro_Digital_Lucas_v1/Voltimetro_Digital_Lucas_v1.srcs/sources_1/new/Counter_BCD.vhd:34' bound to instance 'Counter_BCD_inst_5' of component 'Counter_BCD' [C:/Users/manci/Desktop/Documentos Lucas/Academico/Materias Actuales y seminarios/Digital I/TP FINAL LUCAS/Voltimetro_Digital_Lucas_v1/Voltimetro_Digital_Lucas_v1.srcs/sources_1/new/Counter_BCD_5_digits.vhd:112]
+INFO: [Synth 8-256] done synthesizing module 'Counter_BCD_5_digits' (6#1) [C:/Users/manci/Desktop/Documentos Lucas/Academico/Materias Actuales y seminarios/Digital I/TP FINAL LUCAS/Voltimetro_Digital_Lucas_v1/Voltimetro_Digital_Lucas_v1.srcs/sources_1/new/Counter_BCD_5_digits.vhd:48]
+INFO: [Synth 8-3491] module 'Counter_33000' declared at 'C:/Users/manci/Desktop/Documentos Lucas/Academico/Materias Actuales y seminarios/Digital I/TP FINAL LUCAS/Voltimetro_Digital_Lucas_v1/Voltimetro_Digital_Lucas_v1.srcs/sources_1/new/Counter_33000.vhd:34' bound to instance 'Counter_33000_inst' of component 'Counter_33000' [C:/Users/manci/Desktop/Documentos Lucas/Academico/Materias Actuales y seminarios/Digital I/TP FINAL LUCAS/Voltimetro_Digital_Lucas_v1/Voltimetro_Digital_Lucas_v1.srcs/sources_1/new/ADC.vhd:109]
+INFO: [Synth 8-638] synthesizing module 'Counter_33000' [C:/Users/manci/Desktop/Documentos Lucas/Academico/Materias Actuales y seminarios/Digital I/TP FINAL LUCAS/Voltimetro_Digital_Lucas_v1/Voltimetro_Digital_Lucas_v1.srcs/sources_1/new/Counter_33000.vhd:41]
+	Parameter N bound to: 16 - type: integer 
+INFO: [Synth 8-3491] module 'Counter_uptoX' declared at 'C:/Users/manci/Desktop/Documentos Lucas/Academico/Materias Actuales y seminarios/Digital I/TP FINAL LUCAS/Voltimetro_Digital_Lucas_v1/Voltimetro_Digital_Lucas_v1.srcs/sources_1/new/Counter_uptoX.vhd:34' bound to instance 'Counter_uptoX_inst' of component 'Counter_uptoX' [C:/Users/manci/Desktop/Documentos Lucas/Academico/Materias Actuales y seminarios/Digital I/TP FINAL LUCAS/Voltimetro_Digital_Lucas_v1/Voltimetro_Digital_Lucas_v1.srcs/sources_1/new/Counter_33000.vhd:63]
+INFO: [Synth 8-638] synthesizing module 'Counter_uptoX' [C:/Users/manci/Desktop/Documentos Lucas/Academico/Materias Actuales y seminarios/Digital I/TP FINAL LUCAS/Voltimetro_Digital_Lucas_v1/Voltimetro_Digital_Lucas_v1.srcs/sources_1/new/Counter_uptoX.vhd:43]
+	Parameter N bound to: 16 - type: integer 
+	Parameter N bound to: 16 - type: integer 
+INFO: [Synth 8-3491] module 'Comparator_X' declared at 'C:/Users/manci/Desktop/Documentos Lucas/Academico/Materias Actuales y seminarios/Digital I/TP FINAL LUCAS/Voltimetro_Digital_Lucas_v1/Voltimetro_Digital_Lucas_v1.srcs/sources_1/new/Comparator_X.vhd:34' bound to instance 'Comparator_X_inst' of component 'Comparator_X' [C:/Users/manci/Desktop/Documentos Lucas/Academico/Materias Actuales y seminarios/Digital I/TP FINAL LUCAS/Voltimetro_Digital_Lucas_v1/Voltimetro_Digital_Lucas_v1.srcs/sources_1/new/Counter_uptoX.vhd:68]
+INFO: [Synth 8-638] synthesizing module 'Comparator_X__parameterized1' [C:/Users/manci/Desktop/Documentos Lucas/Academico/Materias Actuales y seminarios/Digital I/TP FINAL LUCAS/Voltimetro_Digital_Lucas_v1/Voltimetro_Digital_Lucas_v1.srcs/sources_1/new/Comparator_X.vhd:42]
+	Parameter N bound to: 16 - type: integer 
+INFO: [Synth 8-256] done synthesizing module 'Comparator_X__parameterized1' (6#1) [C:/Users/manci/Desktop/Documentos Lucas/Academico/Materias Actuales y seminarios/Digital I/TP FINAL LUCAS/Voltimetro_Digital_Lucas_v1/Voltimetro_Digital_Lucas_v1.srcs/sources_1/new/Comparator_X.vhd:42]
+	Parameter N bound to: 16 - type: integer 
+INFO: [Synth 8-3491] module 'Counter_generic' declared at 'C:/Users/manci/Desktop/Documentos Lucas/Academico/Materias Actuales y seminarios/Digital I/TP FINAL LUCAS/Voltimetro_Digital_Lucas_v1/Voltimetro_Digital_Lucas_v1.srcs/sources_1/new/Counter_generic.vhd:35' bound to instance 'Counter_generic_inst' of component 'Counter_generic' [C:/Users/manci/Desktop/Documentos Lucas/Academico/Materias Actuales y seminarios/Digital I/TP FINAL LUCAS/Voltimetro_Digital_Lucas_v1/Voltimetro_Digital_Lucas_v1.srcs/sources_1/new/Counter_uptoX.vhd:75]
+INFO: [Synth 8-638] synthesizing module 'Counter_generic__parameterized1' [C:/Users/manci/Desktop/Documentos Lucas/Academico/Materias Actuales y seminarios/Digital I/TP FINAL LUCAS/Voltimetro_Digital_Lucas_v1/Voltimetro_Digital_Lucas_v1.srcs/sources_1/new/Counter_generic.vhd:45]
+	Parameter N bound to: 16 - type: integer 
+INFO: [Synth 8-3491] module 'FlipFlopD_ena' declared at 'C:/Users/manci/Desktop/Documentos Lucas/Academico/Materias Actuales y seminarios/Digital I/TP FINAL LUCAS/Voltimetro_Digital_Lucas_v1/Voltimetro_Digital_Lucas_v1.srcs/sources_1/new/FlipFlopD_ena.vhd:35' bound to instance 'inst1' of component 'FlipFlopD_ena' [C:/Users/manci/Desktop/Documentos Lucas/Academico/Materias Actuales y seminarios/Digital I/TP FINAL LUCAS/Voltimetro_Digital_Lucas_v1/Voltimetro_Digital_Lucas_v1.srcs/sources_1/new/Counter_generic.vhd:93]
+INFO: [Synth 8-3491] module 'FlipFlopD_ena' declared at 'C:/Users/manci/Desktop/Documentos Lucas/Academico/Materias Actuales y seminarios/Digital I/TP FINAL LUCAS/Voltimetro_Digital_Lucas_v1/Voltimetro_Digital_Lucas_v1.srcs/sources_1/new/FlipFlopD_ena.vhd:35' bound to instance 'insti' of component 'FlipFlopD_ena' [C:/Users/manci/Desktop/Documentos Lucas/Academico/Materias Actuales y seminarios/Digital I/TP FINAL LUCAS/Voltimetro_Digital_Lucas_v1/Voltimetro_Digital_Lucas_v1.srcs/sources_1/new/Counter_generic.vhd:105]
+INFO: [Synth 8-3491] module 'FlipFlopD_ena' declared at 'C:/Users/manci/Desktop/Documentos Lucas/Academico/Materias Actuales y seminarios/Digital I/TP FINAL LUCAS/Voltimetro_Digital_Lucas_v1/Voltimetro_Digital_Lucas_v1.srcs/sources_1/new/FlipFlopD_ena.vhd:35' bound to instance 'insti' of component 'FlipFlopD_ena' [C:/Users/manci/Desktop/Documentos Lucas/Academico/Materias Actuales y seminarios/Digital I/TP FINAL LUCAS/Voltimetro_Digital_Lucas_v1/Voltimetro_Digital_Lucas_v1.srcs/sources_1/new/Counter_generic.vhd:105]
+INFO: [Synth 8-3491] module 'FlipFlopD_ena' declared at 'C:/Users/manci/Desktop/Documentos Lucas/Academico/Materias Actuales y seminarios/Digital I/TP FINAL LUCAS/Voltimetro_Digital_Lucas_v1/Voltimetro_Digital_Lucas_v1.srcs/sources_1/new/FlipFlopD_ena.vhd:35' bound to instance 'insti' of component 'FlipFlopD_ena' [C:/Users/manci/Desktop/Documentos Lucas/Academico/Materias Actuales y seminarios/Digital I/TP FINAL LUCAS/Voltimetro_Digital_Lucas_v1/Voltimetro_Digital_Lucas_v1.srcs/sources_1/new/Counter_generic.vhd:105]
+INFO: [Synth 8-3491] module 'FlipFlopD_ena' declared at 'C:/Users/manci/Desktop/Documentos Lucas/Academico/Materias Actuales y seminarios/Digital I/TP FINAL LUCAS/Voltimetro_Digital_Lucas_v1/Voltimetro_Digital_Lucas_v1.srcs/sources_1/new/FlipFlopD_ena.vhd:35' bound to instance 'insti' of component 'FlipFlopD_ena' [C:/Users/manci/Desktop/Documentos Lucas/Academico/Materias Actuales y seminarios/Digital I/TP FINAL LUCAS/Voltimetro_Digital_Lucas_v1/Voltimetro_Digital_Lucas_v1.srcs/sources_1/new/Counter_generic.vhd:105]
+INFO: [Synth 8-3491] module 'FlipFlopD_ena' declared at 'C:/Users/manci/Desktop/Documentos Lucas/Academico/Materias Actuales y seminarios/Digital I/TP FINAL LUCAS/Voltimetro_Digital_Lucas_v1/Voltimetro_Digital_Lucas_v1.srcs/sources_1/new/FlipFlopD_ena.vhd:35' bound to instance 'insti' of component 'FlipFlopD_ena' [C:/Users/manci/Desktop/Documentos Lucas/Academico/Materias Actuales y seminarios/Digital I/TP FINAL LUCAS/Voltimetro_Digital_Lucas_v1/Voltimetro_Digital_Lucas_v1.srcs/sources_1/new/Counter_generic.vhd:105]
+INFO: [Synth 8-3491] module 'FlipFlopD_ena' declared at 'C:/Users/manci/Desktop/Documentos Lucas/Academico/Materias Actuales y seminarios/Digital I/TP FINAL LUCAS/Voltimetro_Digital_Lucas_v1/Voltimetro_Digital_Lucas_v1.srcs/sources_1/new/FlipFlopD_ena.vhd:35' bound to instance 'insti' of component 'FlipFlopD_ena' [C:/Users/manci/Desktop/Documentos Lucas/Academico/Materias Actuales y seminarios/Digital I/TP FINAL LUCAS/Voltimetro_Digital_Lucas_v1/Voltimetro_Digital_Lucas_v1.srcs/sources_1/new/Counter_generic.vhd:105]
+INFO: [Synth 8-3491] module 'FlipFlopD_ena' declared at 'C:/Users/manci/Desktop/Documentos Lucas/Academico/Materias Actuales y seminarios/Digital I/TP FINAL LUCAS/Voltimetro_Digital_Lucas_v1/Voltimetro_Digital_Lucas_v1.srcs/sources_1/new/FlipFlopD_ena.vhd:35' bound to instance 'insti' of component 'FlipFlopD_ena' [C:/Users/manci/Desktop/Documentos Lucas/Academico/Materias Actuales y seminarios/Digital I/TP FINAL LUCAS/Voltimetro_Digital_Lucas_v1/Voltimetro_Digital_Lucas_v1.srcs/sources_1/new/Counter_generic.vhd:105]
+INFO: [Synth 8-3491] module 'FlipFlopD_ena' declared at 'C:/Users/manci/Desktop/Documentos Lucas/Academico/Materias Actuales y seminarios/Digital I/TP FINAL LUCAS/Voltimetro_Digital_Lucas_v1/Voltimetro_Digital_Lucas_v1.srcs/sources_1/new/FlipFlopD_ena.vhd:35' bound to instance 'insti' of component 'FlipFlopD_ena' [C:/Users/manci/Desktop/Documentos Lucas/Academico/Materias Actuales y seminarios/Digital I/TP FINAL LUCAS/Voltimetro_Digital_Lucas_v1/Voltimetro_Digital_Lucas_v1.srcs/sources_1/new/Counter_generic.vhd:105]
+INFO: [Synth 8-3491] module 'FlipFlopD_ena' declared at 'C:/Users/manci/Desktop/Documentos Lucas/Academico/Materias Actuales y seminarios/Digital I/TP FINAL LUCAS/Voltimetro_Digital_Lucas_v1/Voltimetro_Digital_Lucas_v1.srcs/sources_1/new/FlipFlopD_ena.vhd:35' bound to instance 'insti' of component 'FlipFlopD_ena' [C:/Users/manci/Desktop/Documentos Lucas/Academico/Materias Actuales y seminarios/Digital I/TP FINAL LUCAS/Voltimetro_Digital_Lucas_v1/Voltimetro_Digital_Lucas_v1.srcs/sources_1/new/Counter_generic.vhd:105]
+INFO: [Synth 8-3491] module 'FlipFlopD_ena' declared at 'C:/Users/manci/Desktop/Documentos Lucas/Academico/Materias Actuales y seminarios/Digital I/TP FINAL LUCAS/Voltimetro_Digital_Lucas_v1/Voltimetro_Digital_Lucas_v1.srcs/sources_1/new/FlipFlopD_ena.vhd:35' bound to instance 'insti' of component 'FlipFlopD_ena' [C:/Users/manci/Desktop/Documentos Lucas/Academico/Materias Actuales y seminarios/Digital I/TP FINAL LUCAS/Voltimetro_Digital_Lucas_v1/Voltimetro_Digital_Lucas_v1.srcs/sources_1/new/Counter_generic.vhd:105]
+INFO: [Synth 8-3491] module 'FlipFlopD_ena' declared at 'C:/Users/manci/Desktop/Documentos Lucas/Academico/Materias Actuales y seminarios/Digital I/TP FINAL LUCAS/Voltimetro_Digital_Lucas_v1/Voltimetro_Digital_Lucas_v1.srcs/sources_1/new/FlipFlopD_ena.vhd:35' bound to instance 'insti' of component 'FlipFlopD_ena' [C:/Users/manci/Desktop/Documentos Lucas/Academico/Materias Actuales y seminarios/Digital I/TP FINAL LUCAS/Voltimetro_Digital_Lucas_v1/Voltimetro_Digital_Lucas_v1.srcs/sources_1/new/Counter_generic.vhd:105]
+INFO: [Synth 8-3491] module 'FlipFlopD_ena' declared at 'C:/Users/manci/Desktop/Documentos Lucas/Academico/Materias Actuales y seminarios/Digital I/TP FINAL LUCAS/Voltimetro_Digital_Lucas_v1/Voltimetro_Digital_Lucas_v1.srcs/sources_1/new/FlipFlopD_ena.vhd:35' bound to instance 'insti' of component 'FlipFlopD_ena' [C:/Users/manci/Desktop/Documentos Lucas/Academico/Materias Actuales y seminarios/Digital I/TP FINAL LUCAS/Voltimetro_Digital_Lucas_v1/Voltimetro_Digital_Lucas_v1.srcs/sources_1/new/Counter_generic.vhd:105]
+INFO: [Synth 8-3491] module 'FlipFlopD_ena' declared at 'C:/Users/manci/Desktop/Documentos Lucas/Academico/Materias Actuales y seminarios/Digital I/TP FINAL LUCAS/Voltimetro_Digital_Lucas_v1/Voltimetro_Digital_Lucas_v1.srcs/sources_1/new/FlipFlopD_ena.vhd:35' bound to instance 'insti' of component 'FlipFlopD_ena' [C:/Users/manci/Desktop/Documentos Lucas/Academico/Materias Actuales y seminarios/Digital I/TP FINAL LUCAS/Voltimetro_Digital_Lucas_v1/Voltimetro_Digital_Lucas_v1.srcs/sources_1/new/Counter_generic.vhd:105]
+INFO: [Synth 8-3491] module 'FlipFlopD_ena' declared at 'C:/Users/manci/Desktop/Documentos Lucas/Academico/Materias Actuales y seminarios/Digital I/TP FINAL LUCAS/Voltimetro_Digital_Lucas_v1/Voltimetro_Digital_Lucas_v1.srcs/sources_1/new/FlipFlopD_ena.vhd:35' bound to instance 'insti' of component 'FlipFlopD_ena' [C:/Users/manci/Desktop/Documentos Lucas/Academico/Materias Actuales y seminarios/Digital I/TP FINAL LUCAS/Voltimetro_Digital_Lucas_v1/Voltimetro_Digital_Lucas_v1.srcs/sources_1/new/Counter_generic.vhd:105]
+INFO: [Synth 8-3491] module 'FlipFlopD_ena' declared at 'C:/Users/manci/Desktop/Documentos Lucas/Academico/Materias Actuales y seminarios/Digital I/TP FINAL LUCAS/Voltimetro_Digital_Lucas_v1/Voltimetro_Digital_Lucas_v1.srcs/sources_1/new/FlipFlopD_ena.vhd:35' bound to instance 'insti' of component 'FlipFlopD_ena' [C:/Users/manci/Desktop/Documentos Lucas/Academico/Materias Actuales y seminarios/Digital I/TP FINAL LUCAS/Voltimetro_Digital_Lucas_v1/Voltimetro_Digital_Lucas_v1.srcs/sources_1/new/Counter_generic.vhd:105]
+INFO: [Synth 8-256] done synthesizing module 'Counter_generic__parameterized1' (6#1) [C:/Users/manci/Desktop/Documentos Lucas/Academico/Materias Actuales y seminarios/Digital I/TP FINAL LUCAS/Voltimetro_Digital_Lucas_v1/Voltimetro_Digital_Lucas_v1.srcs/sources_1/new/Counter_generic.vhd:45]
+INFO: [Synth 8-256] done synthesizing module 'Counter_uptoX' (7#1) [C:/Users/manci/Desktop/Documentos Lucas/Academico/Materias Actuales y seminarios/Digital I/TP FINAL LUCAS/Voltimetro_Digital_Lucas_v1/Voltimetro_Digital_Lucas_v1.srcs/sources_1/new/Counter_uptoX.vhd:43]
+	Parameter N bound to: 16 - type: integer 
+INFO: [Synth 8-3491] module 'X_generator' declared at 'C:/Users/manci/Desktop/Documentos Lucas/Academico/Materias Actuales y seminarios/Digital I/TP FINAL LUCAS/Voltimetro_Digital_Lucas_v1/Voltimetro_Digital_Lucas_v1.srcs/sources_1/new/X_generator.vhd:34' bound to instance 'X_generator_inst' of component 'X_generator' [C:/Users/manci/Desktop/Documentos Lucas/Academico/Materias Actuales y seminarios/Digital I/TP FINAL LUCAS/Voltimetro_Digital_Lucas_v1/Voltimetro_Digital_Lucas_v1.srcs/sources_1/new/Counter_33000.vhd:72]
+INFO: [Synth 8-638] synthesizing module 'X_generator' [C:/Users/manci/Desktop/Documentos Lucas/Academico/Materias Actuales y seminarios/Digital I/TP FINAL LUCAS/Voltimetro_Digital_Lucas_v1/Voltimetro_Digital_Lucas_v1.srcs/sources_1/new/X_generator.vhd:39]
+	Parameter N bound to: 16 - type: integer 
+INFO: [Synth 8-256] done synthesizing module 'X_generator' (8#1) [C:/Users/manci/Desktop/Documentos Lucas/Academico/Materias Actuales y seminarios/Digital I/TP FINAL LUCAS/Voltimetro_Digital_Lucas_v1/Voltimetro_Digital_Lucas_v1.srcs/sources_1/new/X_generator.vhd:39]
+INFO: [Synth 8-256] done synthesizing module 'Counter_33000' (9#1) [C:/Users/manci/Desktop/Documentos Lucas/Academico/Materias Actuales y seminarios/Digital I/TP FINAL LUCAS/Voltimetro_Digital_Lucas_v1/Voltimetro_Digital_Lucas_v1.srcs/sources_1/new/Counter_33000.vhd:41]
+INFO: [Synth 8-3491] module 'Register_BCD_3' declared at 'C:/Users/manci/Desktop/Documentos Lucas/Academico/Materias Actuales y seminarios/Digital I/TP FINAL LUCAS/Voltimetro_Digital_Lucas_v1/Voltimetro_Digital_Lucas_v1.srcs/sources_1/new/Register_BCD_3.vhd:34' bound to instance 'Register_BCD_3_inst' of component 'Register_BCD_3' [C:/Users/manci/Desktop/Documentos Lucas/Academico/Materias Actuales y seminarios/Digital I/TP FINAL LUCAS/Voltimetro_Digital_Lucas_v1/Voltimetro_Digital_Lucas_v1.srcs/sources_1/new/ADC.vhd:117]
+INFO: [Synth 8-638] synthesizing module 'Register_BCD_3' [C:/Users/manci/Desktop/Documentos Lucas/Academico/Materias Actuales y seminarios/Digital I/TP FINAL LUCAS/Voltimetro_Digital_Lucas_v1/Voltimetro_Digital_Lucas_v1.srcs/sources_1/new/Register_BCD_3.vhd:46]
+INFO: [Synth 8-3491] module 'FlipFlopD_ena' declared at 'C:/Users/manci/Desktop/Documentos Lucas/Academico/Materias Actuales y seminarios/Digital I/TP FINAL LUCAS/Voltimetro_Digital_Lucas_v1/Voltimetro_Digital_Lucas_v1.srcs/sources_1/new/FlipFlopD_ena.vhd:35' bound to instance 'ffd_first_dig_inst' of component 'FlipFlopD_ena' [C:/Users/manci/Desktop/Documentos Lucas/Academico/Materias Actuales y seminarios/Digital I/TP FINAL LUCAS/Voltimetro_Digital_Lucas_v1/Voltimetro_Digital_Lucas_v1.srcs/sources_1/new/Register_BCD_3.vhd:68]
+INFO: [Synth 8-3491] module 'FlipFlopD_ena' declared at 'C:/Users/manci/Desktop/Documentos Lucas/Academico/Materias Actuales y seminarios/Digital I/TP FINAL LUCAS/Voltimetro_Digital_Lucas_v1/Voltimetro_Digital_Lucas_v1.srcs/sources_1/new/FlipFlopD_ena.vhd:35' bound to instance 'ffd_first_dig_inst' of component 'FlipFlopD_ena' [C:/Users/manci/Desktop/Documentos Lucas/Academico/Materias Actuales y seminarios/Digital I/TP FINAL LUCAS/Voltimetro_Digital_Lucas_v1/Voltimetro_Digital_Lucas_v1.srcs/sources_1/new/Register_BCD_3.vhd:68]
+INFO: [Synth 8-3491] module 'FlipFlopD_ena' declared at 'C:/Users/manci/Desktop/Documentos Lucas/Academico/Materias Actuales y seminarios/Digital I/TP FINAL LUCAS/Voltimetro_Digital_Lucas_v1/Voltimetro_Digital_Lucas_v1.srcs/sources_1/new/FlipFlopD_ena.vhd:35' bound to instance 'ffd_first_dig_inst' of component 'FlipFlopD_ena' [C:/Users/manci/Desktop/Documentos Lucas/Academico/Materias Actuales y seminarios/Digital I/TP FINAL LUCAS/Voltimetro_Digital_Lucas_v1/Voltimetro_Digital_Lucas_v1.srcs/sources_1/new/Register_BCD_3.vhd:68]
+INFO: [Synth 8-3491] module 'FlipFlopD_ena' declared at 'C:/Users/manci/Desktop/Documentos Lucas/Academico/Materias Actuales y seminarios/Digital I/TP FINAL LUCAS/Voltimetro_Digital_Lucas_v1/Voltimetro_Digital_Lucas_v1.srcs/sources_1/new/FlipFlopD_ena.vhd:35' bound to instance 'ffd_first_dig_inst' of component 'FlipFlopD_ena' [C:/Users/manci/Desktop/Documentos Lucas/Academico/Materias Actuales y seminarios/Digital I/TP FINAL LUCAS/Voltimetro_Digital_Lucas_v1/Voltimetro_Digital_Lucas_v1.srcs/sources_1/new/Register_BCD_3.vhd:68]
+INFO: [Synth 8-3491] module 'FlipFlopD_ena' declared at 'C:/Users/manci/Desktop/Documentos Lucas/Academico/Materias Actuales y seminarios/Digital I/TP FINAL LUCAS/Voltimetro_Digital_Lucas_v1/Voltimetro_Digital_Lucas_v1.srcs/sources_1/new/FlipFlopD_ena.vhd:35' bound to instance 'ffd_second_dig_inst' of component 'FlipFlopD_ena' [C:/Users/manci/Desktop/Documentos Lucas/Academico/Materias Actuales y seminarios/Digital I/TP FINAL LUCAS/Voltimetro_Digital_Lucas_v1/Voltimetro_Digital_Lucas_v1.srcs/sources_1/new/Register_BCD_3.vhd:79]
+INFO: [Synth 8-3491] module 'FlipFlopD_ena' declared at 'C:/Users/manci/Desktop/Documentos Lucas/Academico/Materias Actuales y seminarios/Digital I/TP FINAL LUCAS/Voltimetro_Digital_Lucas_v1/Voltimetro_Digital_Lucas_v1.srcs/sources_1/new/FlipFlopD_ena.vhd:35' bound to instance 'ffd_second_dig_inst' of component 'FlipFlopD_ena' [C:/Users/manci/Desktop/Documentos Lucas/Academico/Materias Actuales y seminarios/Digital I/TP FINAL LUCAS/Voltimetro_Digital_Lucas_v1/Voltimetro_Digital_Lucas_v1.srcs/sources_1/new/Register_BCD_3.vhd:79]
+INFO: [Synth 8-3491] module 'FlipFlopD_ena' declared at 'C:/Users/manci/Desktop/Documentos Lucas/Academico/Materias Actuales y seminarios/Digital I/TP FINAL LUCAS/Voltimetro_Digital_Lucas_v1/Voltimetro_Digital_Lucas_v1.srcs/sources_1/new/FlipFlopD_ena.vhd:35' bound to instance 'ffd_second_dig_inst' of component 'FlipFlopD_ena' [C:/Users/manci/Desktop/Documentos Lucas/Academico/Materias Actuales y seminarios/Digital I/TP FINAL LUCAS/Voltimetro_Digital_Lucas_v1/Voltimetro_Digital_Lucas_v1.srcs/sources_1/new/Register_BCD_3.vhd:79]
+INFO: [Synth 8-3491] module 'FlipFlopD_ena' declared at 'C:/Users/manci/Desktop/Documentos Lucas/Academico/Materias Actuales y seminarios/Digital I/TP FINAL LUCAS/Voltimetro_Digital_Lucas_v1/Voltimetro_Digital_Lucas_v1.srcs/sources_1/new/FlipFlopD_ena.vhd:35' bound to instance 'ffd_second_dig_inst' of component 'FlipFlopD_ena' [C:/Users/manci/Desktop/Documentos Lucas/Academico/Materias Actuales y seminarios/Digital I/TP FINAL LUCAS/Voltimetro_Digital_Lucas_v1/Voltimetro_Digital_Lucas_v1.srcs/sources_1/new/Register_BCD_3.vhd:79]
+INFO: [Synth 8-3491] module 'FlipFlopD_ena' declared at 'C:/Users/manci/Desktop/Documentos Lucas/Academico/Materias Actuales y seminarios/Digital I/TP FINAL LUCAS/Voltimetro_Digital_Lucas_v1/Voltimetro_Digital_Lucas_v1.srcs/sources_1/new/FlipFlopD_ena.vhd:35' bound to instance 'ffd_third_dig_inst' of component 'FlipFlopD_ena' [C:/Users/manci/Desktop/Documentos Lucas/Academico/Materias Actuales y seminarios/Digital I/TP FINAL LUCAS/Voltimetro_Digital_Lucas_v1/Voltimetro_Digital_Lucas_v1.srcs/sources_1/new/Register_BCD_3.vhd:90]
+INFO: [Synth 8-3491] module 'FlipFlopD_ena' declared at 'C:/Users/manci/Desktop/Documentos Lucas/Academico/Materias Actuales y seminarios/Digital I/TP FINAL LUCAS/Voltimetro_Digital_Lucas_v1/Voltimetro_Digital_Lucas_v1.srcs/sources_1/new/FlipFlopD_ena.vhd:35' bound to instance 'ffd_third_dig_inst' of component 'FlipFlopD_ena' [C:/Users/manci/Desktop/Documentos Lucas/Academico/Materias Actuales y seminarios/Digital I/TP FINAL LUCAS/Voltimetro_Digital_Lucas_v1/Voltimetro_Digital_Lucas_v1.srcs/sources_1/new/Register_BCD_3.vhd:90]
+INFO: [Synth 8-3491] module 'FlipFlopD_ena' declared at 'C:/Users/manci/Desktop/Documentos Lucas/Academico/Materias Actuales y seminarios/Digital I/TP FINAL LUCAS/Voltimetro_Digital_Lucas_v1/Voltimetro_Digital_Lucas_v1.srcs/sources_1/new/FlipFlopD_ena.vhd:35' bound to instance 'ffd_third_dig_inst' of component 'FlipFlopD_ena' [C:/Users/manci/Desktop/Documentos Lucas/Academico/Materias Actuales y seminarios/Digital I/TP FINAL LUCAS/Voltimetro_Digital_Lucas_v1/Voltimetro_Digital_Lucas_v1.srcs/sources_1/new/Register_BCD_3.vhd:90]
+INFO: [Synth 8-3491] module 'FlipFlopD_ena' declared at 'C:/Users/manci/Desktop/Documentos Lucas/Academico/Materias Actuales y seminarios/Digital I/TP FINAL LUCAS/Voltimetro_Digital_Lucas_v1/Voltimetro_Digital_Lucas_v1.srcs/sources_1/new/FlipFlopD_ena.vhd:35' bound to instance 'ffd_third_dig_inst' of component 'FlipFlopD_ena' [C:/Users/manci/Desktop/Documentos Lucas/Academico/Materias Actuales y seminarios/Digital I/TP FINAL LUCAS/Voltimetro_Digital_Lucas_v1/Voltimetro_Digital_Lucas_v1.srcs/sources_1/new/Register_BCD_3.vhd:90]
+INFO: [Synth 8-256] done synthesizing module 'Register_BCD_3' (10#1) [C:/Users/manci/Desktop/Documentos Lucas/Academico/Materias Actuales y seminarios/Digital I/TP FINAL LUCAS/Voltimetro_Digital_Lucas_v1/Voltimetro_Digital_Lucas_v1.srcs/sources_1/new/Register_BCD_3.vhd:46]
+INFO: [Synth 8-256] done synthesizing module 'ADC' (11#1) [C:/Users/manci/Desktop/Documentos Lucas/Academico/Materias Actuales y seminarios/Digital I/TP FINAL LUCAS/Voltimetro_Digital_Lucas_v1/Voltimetro_Digital_Lucas_v1.srcs/sources_1/new/ADC.vhd:52]
+INFO: [Synth 8-3491] module 'VGA' declared at 'C:/Users/manci/Desktop/Documentos Lucas/Academico/Materias Actuales y seminarios/Digital I/TP FINAL LUCAS/Voltimetro_Digital_Lucas_v1/Voltimetro_Digital_Lucas_v1.srcs/sources_1/new/VGA.vhd:34' bound to instance 'VGA_inst' of component 'VGA' [C:/Users/manci/Desktop/Documentos Lucas/Academico/Materias Actuales y seminarios/Digital I/TP FINAL LUCAS/Voltimetro_Digital_Lucas_v1/Voltimetro_Digital_Lucas_v1.srcs/sources_1/new/Voltmeter_top.vhd:115]
+INFO: [Synth 8-638] synthesizing module 'VGA' [C:/Users/manci/Desktop/Documentos Lucas/Academico/Materias Actuales y seminarios/Digital I/TP FINAL LUCAS/Voltimetro_Digital_Lucas_v1/Voltimetro_Digital_Lucas_v1.srcs/sources_1/new/VGA.vhd:48]
+INFO: [Synth 8-3491] module 'VGA_sync_control' declared at 'C:/Users/manci/Desktop/Documentos Lucas/Academico/Materias Actuales y seminarios/Digital I/TP FINAL LUCAS/Voltimetro_Digital_Lucas_v1/Voltimetro_Digital_Lucas_v1.srcs/sources_1/new/VGA_sync_control.vhd:34' bound to instance 'VGA_sync_control_inst' of component 'VGA_sync_control' [C:/Users/manci/Desktop/Documentos Lucas/Academico/Materias Actuales y seminarios/Digital I/TP FINAL LUCAS/Voltimetro_Digital_Lucas_v1/Voltimetro_Digital_Lucas_v1.srcs/sources_1/new/VGA.vhd:95]
+INFO: [Synth 8-638] synthesizing module 'VGA_sync_control' [C:/Users/manci/Desktop/Documentos Lucas/Academico/Materias Actuales y seminarios/Digital I/TP FINAL LUCAS/Voltimetro_Digital_Lucas_v1/Voltimetro_Digital_Lucas_v1.srcs/sources_1/new/VGA_sync_control.vhd:47]
+INFO: [Synth 8-3491] module 'VGA_H_sync' declared at 'C:/Users/manci/Desktop/Documentos Lucas/Academico/Materias Actuales y seminarios/Digital I/TP FINAL LUCAS/Voltimetro_Digital_Lucas_v1/Voltimetro_Digital_Lucas_v1.srcs/sources_1/new/VGA_H_sync.vhd:34' bound to instance 'VGA_H_sync_inst' of component 'VGA_H_sync' [C:/Users/manci/Desktop/Documentos Lucas/Academico/Materias Actuales y seminarios/Digital I/TP FINAL LUCAS/Voltimetro_Digital_Lucas_v1/Voltimetro_Digital_Lucas_v1.srcs/sources_1/new/VGA_sync_control.vhd:81]
+INFO: [Synth 8-638] synthesizing module 'VGA_H_sync' [C:/Users/manci/Desktop/Documentos Lucas/Academico/Materias Actuales y seminarios/Digital I/TP FINAL LUCAS/Voltimetro_Digital_Lucas_v1/Voltimetro_Digital_Lucas_v1.srcs/sources_1/new/VGA_H_sync.vhd:43]
+INFO: [Synth 8-3491] module 'VGA_H_counter' declared at 'C:/Users/manci/Desktop/Documentos Lucas/Academico/Materias Actuales y seminarios/Digital I/TP FINAL LUCAS/Voltimetro_Digital_Lucas_v1/Voltimetro_Digital_Lucas_v1.srcs/sources_1/new/VGA_H_counter.vhd:34' bound to instance 'VGA_H_counter_inst' of component 'VGA_H_counter' [C:/Users/manci/Desktop/Documentos Lucas/Academico/Materias Actuales y seminarios/Digital I/TP FINAL LUCAS/Voltimetro_Digital_Lucas_v1/Voltimetro_Digital_Lucas_v1.srcs/sources_1/new/VGA_H_sync.vhd:98]
+INFO: [Synth 8-638] synthesizing module 'VGA_H_counter' [C:/Users/manci/Desktop/Documentos Lucas/Academico/Materias Actuales y seminarios/Digital I/TP FINAL LUCAS/Voltimetro_Digital_Lucas_v1/Voltimetro_Digital_Lucas_v1.srcs/sources_1/new/VGA_H_counter.vhd:42]
+	Parameter N bound to: 10 - type: integer 
+INFO: [Synth 8-3491] module 'Counter_generic' declared at 'C:/Users/manci/Desktop/Documentos Lucas/Academico/Materias Actuales y seminarios/Digital I/TP FINAL LUCAS/Voltimetro_Digital_Lucas_v1/Voltimetro_Digital_Lucas_v1.srcs/sources_1/new/Counter_generic.vhd:35' bound to instance 'Counter_generic_10b' of component 'Counter_generic' [C:/Users/manci/Desktop/Documentos Lucas/Academico/Materias Actuales y seminarios/Digital I/TP FINAL LUCAS/Voltimetro_Digital_Lucas_v1/Voltimetro_Digital_Lucas_v1.srcs/sources_1/new/VGA_H_counter.vhd:83]
+INFO: [Synth 8-638] synthesizing module 'Counter_generic__parameterized3' [C:/Users/manci/Desktop/Documentos Lucas/Academico/Materias Actuales y seminarios/Digital I/TP FINAL LUCAS/Voltimetro_Digital_Lucas_v1/Voltimetro_Digital_Lucas_v1.srcs/sources_1/new/Counter_generic.vhd:45]
+	Parameter N bound to: 10 - type: integer 
+INFO: [Synth 8-3491] module 'FlipFlopD_ena' declared at 'C:/Users/manci/Desktop/Documentos Lucas/Academico/Materias Actuales y seminarios/Digital I/TP FINAL LUCAS/Voltimetro_Digital_Lucas_v1/Voltimetro_Digital_Lucas_v1.srcs/sources_1/new/FlipFlopD_ena.vhd:35' bound to instance 'inst1' of component 'FlipFlopD_ena' [C:/Users/manci/Desktop/Documentos Lucas/Academico/Materias Actuales y seminarios/Digital I/TP FINAL LUCAS/Voltimetro_Digital_Lucas_v1/Voltimetro_Digital_Lucas_v1.srcs/sources_1/new/Counter_generic.vhd:93]
+INFO: [Synth 8-3491] module 'FlipFlopD_ena' declared at 'C:/Users/manci/Desktop/Documentos Lucas/Academico/Materias Actuales y seminarios/Digital I/TP FINAL LUCAS/Voltimetro_Digital_Lucas_v1/Voltimetro_Digital_Lucas_v1.srcs/sources_1/new/FlipFlopD_ena.vhd:35' bound to instance 'insti' of component 'FlipFlopD_ena' [C:/Users/manci/Desktop/Documentos Lucas/Academico/Materias Actuales y seminarios/Digital I/TP FINAL LUCAS/Voltimetro_Digital_Lucas_v1/Voltimetro_Digital_Lucas_v1.srcs/sources_1/new/Counter_generic.vhd:105]
+INFO: [Synth 8-3491] module 'FlipFlopD_ena' declared at 'C:/Users/manci/Desktop/Documentos Lucas/Academico/Materias Actuales y seminarios/Digital I/TP FINAL LUCAS/Voltimetro_Digital_Lucas_v1/Voltimetro_Digital_Lucas_v1.srcs/sources_1/new/FlipFlopD_ena.vhd:35' bound to instance 'insti' of component 'FlipFlopD_ena' [C:/Users/manci/Desktop/Documentos Lucas/Academico/Materias Actuales y seminarios/Digital I/TP FINAL LUCAS/Voltimetro_Digital_Lucas_v1/Voltimetro_Digital_Lucas_v1.srcs/sources_1/new/Counter_generic.vhd:105]
+INFO: [Synth 8-3491] module 'FlipFlopD_ena' declared at 'C:/Users/manci/Desktop/Documentos Lucas/Academico/Materias Actuales y seminarios/Digital I/TP FINAL LUCAS/Voltimetro_Digital_Lucas_v1/Voltimetro_Digital_Lucas_v1.srcs/sources_1/new/FlipFlopD_ena.vhd:35' bound to instance 'insti' of component 'FlipFlopD_ena' [C:/Users/manci/Desktop/Documentos Lucas/Academico/Materias Actuales y seminarios/Digital I/TP FINAL LUCAS/Voltimetro_Digital_Lucas_v1/Voltimetro_Digital_Lucas_v1.srcs/sources_1/new/Counter_generic.vhd:105]
+INFO: [Synth 8-3491] module 'FlipFlopD_ena' declared at 'C:/Users/manci/Desktop/Documentos Lucas/Academico/Materias Actuales y seminarios/Digital I/TP FINAL LUCAS/Voltimetro_Digital_Lucas_v1/Voltimetro_Digital_Lucas_v1.srcs/sources_1/new/FlipFlopD_ena.vhd:35' bound to instance 'insti' of component 'FlipFlopD_ena' [C:/Users/manci/Desktop/Documentos Lucas/Academico/Materias Actuales y seminarios/Digital I/TP FINAL LUCAS/Voltimetro_Digital_Lucas_v1/Voltimetro_Digital_Lucas_v1.srcs/sources_1/new/Counter_generic.vhd:105]
+INFO: [Synth 8-3491] module 'FlipFlopD_ena' declared at 'C:/Users/manci/Desktop/Documentos Lucas/Academico/Materias Actuales y seminarios/Digital I/TP FINAL LUCAS/Voltimetro_Digital_Lucas_v1/Voltimetro_Digital_Lucas_v1.srcs/sources_1/new/FlipFlopD_ena.vhd:35' bound to instance 'insti' of component 'FlipFlopD_ena' [C:/Users/manci/Desktop/Documentos Lucas/Academico/Materias Actuales y seminarios/Digital I/TP FINAL LUCAS/Voltimetro_Digital_Lucas_v1/Voltimetro_Digital_Lucas_v1.srcs/sources_1/new/Counter_generic.vhd:105]
+INFO: [Synth 8-3491] module 'FlipFlopD_ena' declared at 'C:/Users/manci/Desktop/Documentos Lucas/Academico/Materias Actuales y seminarios/Digital I/TP FINAL LUCAS/Voltimetro_Digital_Lucas_v1/Voltimetro_Digital_Lucas_v1.srcs/sources_1/new/FlipFlopD_ena.vhd:35' bound to instance 'insti' of component 'FlipFlopD_ena' [C:/Users/manci/Desktop/Documentos Lucas/Academico/Materias Actuales y seminarios/Digital I/TP FINAL LUCAS/Voltimetro_Digital_Lucas_v1/Voltimetro_Digital_Lucas_v1.srcs/sources_1/new/Counter_generic.vhd:105]
+INFO: [Synth 8-3491] module 'FlipFlopD_ena' declared at 'C:/Users/manci/Desktop/Documentos Lucas/Academico/Materias Actuales y seminarios/Digital I/TP FINAL LUCAS/Voltimetro_Digital_Lucas_v1/Voltimetro_Digital_Lucas_v1.srcs/sources_1/new/FlipFlopD_ena.vhd:35' bound to instance 'insti' of component 'FlipFlopD_ena' [C:/Users/manci/Desktop/Documentos Lucas/Academico/Materias Actuales y seminarios/Digital I/TP FINAL LUCAS/Voltimetro_Digital_Lucas_v1/Voltimetro_Digital_Lucas_v1.srcs/sources_1/new/Counter_generic.vhd:105]
+INFO: [Synth 8-3491] module 'FlipFlopD_ena' declared at 'C:/Users/manci/Desktop/Documentos Lucas/Academico/Materias Actuales y seminarios/Digital I/TP FINAL LUCAS/Voltimetro_Digital_Lucas_v1/Voltimetro_Digital_Lucas_v1.srcs/sources_1/new/FlipFlopD_ena.vhd:35' bound to instance 'insti' of component 'FlipFlopD_ena' [C:/Users/manci/Desktop/Documentos Lucas/Academico/Materias Actuales y seminarios/Digital I/TP FINAL LUCAS/Voltimetro_Digital_Lucas_v1/Voltimetro_Digital_Lucas_v1.srcs/sources_1/new/Counter_generic.vhd:105]
+INFO: [Synth 8-3491] module 'FlipFlopD_ena' declared at 'C:/Users/manci/Desktop/Documentos Lucas/Academico/Materias Actuales y seminarios/Digital I/TP FINAL LUCAS/Voltimetro_Digital_Lucas_v1/Voltimetro_Digital_Lucas_v1.srcs/sources_1/new/FlipFlopD_ena.vhd:35' bound to instance 'insti' of component 'FlipFlopD_ena' [C:/Users/manci/Desktop/Documentos Lucas/Academico/Materias Actuales y seminarios/Digital I/TP FINAL LUCAS/Voltimetro_Digital_Lucas_v1/Voltimetro_Digital_Lucas_v1.srcs/sources_1/new/Counter_generic.vhd:105]
+INFO: [Synth 8-256] done synthesizing module 'Counter_generic__parameterized3' (11#1) [C:/Users/manci/Desktop/Documentos Lucas/Academico/Materias Actuales y seminarios/Digital I/TP FINAL LUCAS/Voltimetro_Digital_Lucas_v1/Voltimetro_Digital_Lucas_v1.srcs/sources_1/new/Counter_generic.vhd:45]
+	Parameter N bound to: 10 - type: integer 
+INFO: [Synth 8-3491] module 'Comparator_X' declared at 'C:/Users/manci/Desktop/Documentos Lucas/Academico/Materias Actuales y seminarios/Digital I/TP FINAL LUCAS/Voltimetro_Digital_Lucas_v1/Voltimetro_Digital_Lucas_v1.srcs/sources_1/new/Comparator_X.vhd:34' bound to instance 'Comparator_limit' of component 'Comparator_X' [C:/Users/manci/Desktop/Documentos Lucas/Academico/Materias Actuales y seminarios/Digital I/TP FINAL LUCAS/Voltimetro_Digital_Lucas_v1/Voltimetro_Digital_Lucas_v1.srcs/sources_1/new/VGA_H_counter.vhd:92]
+INFO: [Synth 8-638] synthesizing module 'Comparator_X__parameterized3' [C:/Users/manci/Desktop/Documentos Lucas/Academico/Materias Actuales y seminarios/Digital I/TP FINAL LUCAS/Voltimetro_Digital_Lucas_v1/Voltimetro_Digital_Lucas_v1.srcs/sources_1/new/Comparator_X.vhd:42]
+	Parameter N bound to: 10 - type: integer 
+INFO: [Synth 8-256] done synthesizing module 'Comparator_X__parameterized3' (11#1) [C:/Users/manci/Desktop/Documentos Lucas/Academico/Materias Actuales y seminarios/Digital I/TP FINAL LUCAS/Voltimetro_Digital_Lucas_v1/Voltimetro_Digital_Lucas_v1.srcs/sources_1/new/Comparator_X.vhd:42]
+INFO: [Synth 8-256] done synthesizing module 'VGA_H_counter' (12#1) [C:/Users/manci/Desktop/Documentos Lucas/Academico/Materias Actuales y seminarios/Digital I/TP FINAL LUCAS/Voltimetro_Digital_Lucas_v1/Voltimetro_Digital_Lucas_v1.srcs/sources_1/new/VGA_H_counter.vhd:42]
+INFO: [Synth 8-3491] module 'FlipFlopD_ena' declared at 'C:/Users/manci/Desktop/Documentos Lucas/Academico/Materias Actuales y seminarios/Digital I/TP FINAL LUCAS/Voltimetro_Digital_Lucas_v1/Voltimetro_Digital_Lucas_v1.srcs/sources_1/new/FlipFlopD_ena.vhd:35' bound to instance 'FlipFlopD_inst' of component 'FlipFlopD_ena' [C:/Users/manci/Desktop/Documentos Lucas/Academico/Materias Actuales y seminarios/Digital I/TP FINAL LUCAS/Voltimetro_Digital_Lucas_v1/Voltimetro_Digital_Lucas_v1.srcs/sources_1/new/VGA_H_sync.vhd:111]
+	Parameter N bound to: 10 - type: integer 
+INFO: [Synth 8-3491] module 'Comparator_X' declared at 'C:/Users/manci/Desktop/Documentos Lucas/Academico/Materias Actuales y seminarios/Digital I/TP FINAL LUCAS/Voltimetro_Digital_Lucas_v1/Voltimetro_Digital_Lucas_v1.srcs/sources_1/new/Comparator_X.vhd:34' bound to instance 'Comparator_inf_edge' of component 'Comparator_X' [C:/Users/manci/Desktop/Documentos Lucas/Academico/Materias Actuales y seminarios/Digital I/TP FINAL LUCAS/Voltimetro_Digital_Lucas_v1/Voltimetro_Digital_Lucas_v1.srcs/sources_1/new/VGA_H_sync.vhd:121]
+	Parameter N bound to: 10 - type: integer 
+INFO: [Synth 8-3491] module 'Comparator_X' declared at 'C:/Users/manci/Desktop/Documentos Lucas/Academico/Materias Actuales y seminarios/Digital I/TP FINAL LUCAS/Voltimetro_Digital_Lucas_v1/Voltimetro_Digital_Lucas_v1.srcs/sources_1/new/Comparator_X.vhd:34' bound to instance 'Comparator_sup_edge' of component 'Comparator_X' [C:/Users/manci/Desktop/Documentos Lucas/Academico/Materias Actuales y seminarios/Digital I/TP FINAL LUCAS/Voltimetro_Digital_Lucas_v1/Voltimetro_Digital_Lucas_v1.srcs/sources_1/new/VGA_H_sync.vhd:128]
+INFO: [Synth 8-256] done synthesizing module 'VGA_H_sync' (13#1) [C:/Users/manci/Desktop/Documentos Lucas/Academico/Materias Actuales y seminarios/Digital I/TP FINAL LUCAS/Voltimetro_Digital_Lucas_v1/Voltimetro_Digital_Lucas_v1.srcs/sources_1/new/VGA_H_sync.vhd:43]
+INFO: [Synth 8-3491] module 'VGA_V_sync' declared at 'C:/Users/manci/Desktop/Documentos Lucas/Academico/Materias Actuales y seminarios/Digital I/TP FINAL LUCAS/Voltimetro_Digital_Lucas_v1/Voltimetro_Digital_Lucas_v1.srcs/sources_1/new/VGA_V_sync.vhd:15' bound to instance 'VGA_V_sync_inst' of component 'VGA_V_sync' [C:/Users/manci/Desktop/Documentos Lucas/Academico/Materias Actuales y seminarios/Digital I/TP FINAL LUCAS/Voltimetro_Digital_Lucas_v1/Voltimetro_Digital_Lucas_v1.srcs/sources_1/new/VGA_sync_control.vhd:94]
+INFO: [Synth 8-638] synthesizing module 'VGA_V_sync' [C:/Users/manci/Desktop/Documentos Lucas/Academico/Materias Actuales y seminarios/Digital I/TP FINAL LUCAS/Voltimetro_Digital_Lucas_v1/Voltimetro_Digital_Lucas_v1.srcs/sources_1/new/VGA_V_sync.vhd:23]
+INFO: [Synth 8-3491] module 'VGA_V_counter' declared at 'C:/Users/manci/Desktop/Documentos Lucas/Academico/Materias Actuales y seminarios/Digital I/TP FINAL LUCAS/Voltimetro_Digital_Lucas_v1/Voltimetro_Digital_Lucas_v1.srcs/sources_1/new/VGA_V_counter.vhd:34' bound to instance 'VGA_V_counter_inst' of component 'VGA_V_counter' [C:/Users/manci/Desktop/Documentos Lucas/Academico/Materias Actuales y seminarios/Digital I/TP FINAL LUCAS/Voltimetro_Digital_Lucas_v1/Voltimetro_Digital_Lucas_v1.srcs/sources_1/new/VGA_V_sync.vhd:78]
+INFO: [Synth 8-638] synthesizing module 'VGA_V_counter' [C:/Users/manci/Desktop/Documentos Lucas/Academico/Materias Actuales y seminarios/Digital I/TP FINAL LUCAS/Voltimetro_Digital_Lucas_v1/Voltimetro_Digital_Lucas_v1.srcs/sources_1/new/VGA_V_counter.vhd:41]
+	Parameter N bound to: 10 - type: integer 
+INFO: [Synth 8-3491] module 'Counter_generic' declared at 'C:/Users/manci/Desktop/Documentos Lucas/Academico/Materias Actuales y seminarios/Digital I/TP FINAL LUCAS/Voltimetro_Digital_Lucas_v1/Voltimetro_Digital_Lucas_v1.srcs/sources_1/new/Counter_generic.vhd:35' bound to instance 'Counter_generic_10b' of component 'Counter_generic' [C:/Users/manci/Desktop/Documentos Lucas/Academico/Materias Actuales y seminarios/Digital I/TP FINAL LUCAS/Voltimetro_Digital_Lucas_v1/Voltimetro_Digital_Lucas_v1.srcs/sources_1/new/VGA_V_counter.vhd:82]
+	Parameter N bound to: 10 - type: integer 
+INFO: [Synth 8-3491] module 'Comparator_X' declared at 'C:/Users/manci/Desktop/Documentos Lucas/Academico/Materias Actuales y seminarios/Digital I/TP FINAL LUCAS/Voltimetro_Digital_Lucas_v1/Voltimetro_Digital_Lucas_v1.srcs/sources_1/new/Comparator_X.vhd:34' bound to instance 'Comparator_limit' of component 'Comparator_X' [C:/Users/manci/Desktop/Documentos Lucas/Academico/Materias Actuales y seminarios/Digital I/TP FINAL LUCAS/Voltimetro_Digital_Lucas_v1/Voltimetro_Digital_Lucas_v1.srcs/sources_1/new/VGA_V_counter.vhd:91]
+INFO: [Synth 8-256] done synthesizing module 'VGA_V_counter' (14#1) [C:/Users/manci/Desktop/Documentos Lucas/Academico/Materias Actuales y seminarios/Digital I/TP FINAL LUCAS/Voltimetro_Digital_Lucas_v1/Voltimetro_Digital_Lucas_v1.srcs/sources_1/new/VGA_V_counter.vhd:41]
+INFO: [Synth 8-3491] module 'FlipFlopD_ena' declared at 'C:/Users/manci/Desktop/Documentos Lucas/Academico/Materias Actuales y seminarios/Digital I/TP FINAL LUCAS/Voltimetro_Digital_Lucas_v1/Voltimetro_Digital_Lucas_v1.srcs/sources_1/new/FlipFlopD_ena.vhd:35' bound to instance 'FlipFlopD_inst' of component 'FlipFlopD_ena' [C:/Users/manci/Desktop/Documentos Lucas/Academico/Materias Actuales y seminarios/Digital I/TP FINAL LUCAS/Voltimetro_Digital_Lucas_v1/Voltimetro_Digital_Lucas_v1.srcs/sources_1/new/VGA_V_sync.vhd:90]
+	Parameter N bound to: 10 - type: integer 
+INFO: [Synth 8-3491] module 'Comparator_X' declared at 'C:/Users/manci/Desktop/Documentos Lucas/Academico/Materias Actuales y seminarios/Digital I/TP FINAL LUCAS/Voltimetro_Digital_Lucas_v1/Voltimetro_Digital_Lucas_v1.srcs/sources_1/new/Comparator_X.vhd:34' bound to instance 'Comparator_inf_edge' of component 'Comparator_X' [C:/Users/manci/Desktop/Documentos Lucas/Academico/Materias Actuales y seminarios/Digital I/TP FINAL LUCAS/Voltimetro_Digital_Lucas_v1/Voltimetro_Digital_Lucas_v1.srcs/sources_1/new/VGA_V_sync.vhd:100]
+	Parameter N bound to: 10 - type: integer 
+INFO: [Synth 8-3491] module 'Comparator_X' declared at 'C:/Users/manci/Desktop/Documentos Lucas/Academico/Materias Actuales y seminarios/Digital I/TP FINAL LUCAS/Voltimetro_Digital_Lucas_v1/Voltimetro_Digital_Lucas_v1.srcs/sources_1/new/Comparator_X.vhd:34' bound to instance 'Comparator_sup_edge' of component 'Comparator_X' [C:/Users/manci/Desktop/Documentos Lucas/Academico/Materias Actuales y seminarios/Digital I/TP FINAL LUCAS/Voltimetro_Digital_Lucas_v1/Voltimetro_Digital_Lucas_v1.srcs/sources_1/new/VGA_V_sync.vhd:107]
+INFO: [Synth 8-256] done synthesizing module 'VGA_V_sync' (15#1) [C:/Users/manci/Desktop/Documentos Lucas/Academico/Materias Actuales y seminarios/Digital I/TP FINAL LUCAS/Voltimetro_Digital_Lucas_v1/Voltimetro_Digital_Lucas_v1.srcs/sources_1/new/VGA_V_sync.vhd:23]
+INFO: [Synth 8-3491] module 'Visible_flag_generator' declared at 'C:/Users/manci/Desktop/Documentos Lucas/Academico/Materias Actuales y seminarios/Digital I/TP FINAL LUCAS/Voltimetro_Digital_Lucas_v1/Voltimetro_Digital_Lucas_v1.srcs/sources_1/new/Visible_flag_generator.vhd:34' bound to instance 'Visible_flag_generator_inst' of component 'Visible_flag_generator' [C:/Users/manci/Desktop/Documentos Lucas/Academico/Materias Actuales y seminarios/Digital I/TP FINAL LUCAS/Voltimetro_Digital_Lucas_v1/Voltimetro_Digital_Lucas_v1.srcs/sources_1/new/VGA_sync_control.vhd:107]
+INFO: [Synth 8-638] synthesizing module 'Visible_flag_generator' [C:/Users/manci/Desktop/Documentos Lucas/Academico/Materias Actuales y seminarios/Digital I/TP FINAL LUCAS/Voltimetro_Digital_Lucas_v1/Voltimetro_Digital_Lucas_v1.srcs/sources_1/new/Visible_flag_generator.vhd:42]
+INFO: [Synth 8-256] done synthesizing module 'Visible_flag_generator' (16#1) [C:/Users/manci/Desktop/Documentos Lucas/Academico/Materias Actuales y seminarios/Digital I/TP FINAL LUCAS/Voltimetro_Digital_Lucas_v1/Voltimetro_Digital_Lucas_v1.srcs/sources_1/new/Visible_flag_generator.vhd:42]
+INFO: [Synth 8-256] done synthesizing module 'VGA_sync_control' (17#1) [C:/Users/manci/Desktop/Documentos Lucas/Academico/Materias Actuales y seminarios/Digital I/TP FINAL LUCAS/Voltimetro_Digital_Lucas_v1/Voltimetro_Digital_Lucas_v1.srcs/sources_1/new/VGA_sync_control.vhd:47]
+INFO: [Synth 8-3491] module 'VGA_data_gen' declared at 'C:/Users/manci/Desktop/Documentos Lucas/Academico/Materias Actuales y seminarios/Digital I/TP FINAL LUCAS/Voltimetro_Digital_Lucas_v1/Voltimetro_Digital_Lucas_v1.srcs/sources_1/new/VGA_data_gen.vhd:34' bound to instance 'VGA_data_gen_inst' of component 'VGA_data_gen' [C:/Users/manci/Desktop/Documentos Lucas/Academico/Materias Actuales y seminarios/Digital I/TP FINAL LUCAS/Voltimetro_Digital_Lucas_v1/Voltimetro_Digital_Lucas_v1.srcs/sources_1/new/VGA.vhd:108]
+INFO: [Synth 8-638] synthesizing module 'VGA_data_gen' [C:/Users/manci/Desktop/Documentos Lucas/Academico/Materias Actuales y seminarios/Digital I/TP FINAL LUCAS/Voltimetro_Digital_Lucas_v1/Voltimetro_Digital_Lucas_v1.srcs/sources_1/new/VGA_data_gen.vhd:45]
+	Parameter N bound to: 4 - type: integer 
+INFO: [Synth 8-3491] module 'mux_8_in' declared at 'C:/Users/manci/Desktop/Documentos Lucas/Academico/Materias Actuales y seminarios/Digital I/TP FINAL LUCAS/Voltimetro_Digital_Lucas_v1/Voltimetro_Digital_Lucas_v1.srcs/sources_1/new/mux_8_in.vhd:34' bound to instance 'mux_8_in_inst' of component 'mux_8_in' [C:/Users/manci/Desktop/Documentos Lucas/Academico/Materias Actuales y seminarios/Digital I/TP FINAL LUCAS/Voltimetro_Digital_Lucas_v1/Voltimetro_Digital_Lucas_v1.srcs/sources_1/new/VGA_data_gen.vhd:80]
+INFO: [Synth 8-638] synthesizing module 'mux_8_in' [C:/Users/manci/Desktop/Documentos Lucas/Academico/Materias Actuales y seminarios/Digital I/TP FINAL LUCAS/Voltimetro_Digital_Lucas_v1/Voltimetro_Digital_Lucas_v1.srcs/sources_1/new/mux_8_in.vhd:43]
+	Parameter N bound to: 4 - type: integer 
+	Parameter N bound to: 4 - type: integer 
+INFO: [Synth 8-3491] module 'mux_4_in' declared at 'C:/Users/manci/Desktop/Documentos Lucas/Academico/Materias Actuales y seminarios/Digital I/TP FINAL LUCAS/Voltimetro_Digital_Lucas_v1/Voltimetro_Digital_Lucas_v1.srcs/sources_1/new/mux_4_in.vhd:34' bound to instance 'mux_ABCD' of component 'mux_4_in' [C:/Users/manci/Desktop/Documentos Lucas/Academico/Materias Actuales y seminarios/Digital I/TP FINAL LUCAS/Voltimetro_Digital_Lucas_v1/Voltimetro_Digital_Lucas_v1.srcs/sources_1/new/mux_8_in.vhd:67]
+INFO: [Synth 8-638] synthesizing module 'mux_4_in' [C:/Users/manci/Desktop/Documentos Lucas/Academico/Materias Actuales y seminarios/Digital I/TP FINAL LUCAS/Voltimetro_Digital_Lucas_v1/Voltimetro_Digital_Lucas_v1.srcs/sources_1/new/mux_4_in.vhd:50]
+	Parameter N bound to: 4 - type: integer 
+	Parameter N bound to: 4 - type: integer 
+INFO: [Synth 8-3491] module 'mux_bin_gen' declared at 'C:/Users/manci/Desktop/Documentos Lucas/Academico/Materias Actuales y seminarios/Digital I/TP FINAL LUCAS/Voltimetro_Digital_Lucas_v1/Voltimetro_Digital_Lucas_v1.srcs/sources_1/new/mux_bin_gen.vhd:34' bound to instance 'mux_AB' of component 'mux_bin_gen' [C:/Users/manci/Desktop/Documentos Lucas/Academico/Materias Actuales y seminarios/Digital I/TP FINAL LUCAS/Voltimetro_Digital_Lucas_v1/Voltimetro_Digital_Lucas_v1.srcs/sources_1/new/mux_4_in.vhd:66]
+INFO: [Synth 8-638] synthesizing module 'mux_bin_gen' [C:/Users/manci/Desktop/Documentos Lucas/Academico/Materias Actuales y seminarios/Digital I/TP FINAL LUCAS/Voltimetro_Digital_Lucas_v1/Voltimetro_Digital_Lucas_v1.srcs/sources_1/new/mux_bin_gen.vhd:43]
+	Parameter N bound to: 4 - type: integer 
+INFO: [Synth 8-256] done synthesizing module 'mux_bin_gen' (18#1) [C:/Users/manci/Desktop/Documentos Lucas/Academico/Materias Actuales y seminarios/Digital I/TP FINAL LUCAS/Voltimetro_Digital_Lucas_v1/Voltimetro_Digital_Lucas_v1.srcs/sources_1/new/mux_bin_gen.vhd:43]
+	Parameter N bound to: 4 - type: integer 
+INFO: [Synth 8-3491] module 'mux_bin_gen' declared at 'C:/Users/manci/Desktop/Documentos Lucas/Academico/Materias Actuales y seminarios/Digital I/TP FINAL LUCAS/Voltimetro_Digital_Lucas_v1/Voltimetro_Digital_Lucas_v1.srcs/sources_1/new/mux_bin_gen.vhd:34' bound to instance 'mux_CD' of component 'mux_bin_gen' [C:/Users/manci/Desktop/Documentos Lucas/Academico/Materias Actuales y seminarios/Digital I/TP FINAL LUCAS/Voltimetro_Digital_Lucas_v1/Voltimetro_Digital_Lucas_v1.srcs/sources_1/new/mux_4_in.vhd:76]
+	Parameter N bound to: 4 - type: integer 
+INFO: [Synth 8-3491] module 'mux_bin_gen' declared at 'C:/Users/manci/Desktop/Documentos Lucas/Academico/Materias Actuales y seminarios/Digital I/TP FINAL LUCAS/Voltimetro_Digital_Lucas_v1/Voltimetro_Digital_Lucas_v1.srcs/sources_1/new/mux_bin_gen.vhd:34' bound to instance 'mux_output' of component 'mux_bin_gen' [C:/Users/manci/Desktop/Documentos Lucas/Academico/Materias Actuales y seminarios/Digital I/TP FINAL LUCAS/Voltimetro_Digital_Lucas_v1/Voltimetro_Digital_Lucas_v1.srcs/sources_1/new/mux_4_in.vhd:86]
+INFO: [Synth 8-256] done synthesizing module 'mux_4_in' (19#1) [C:/Users/manci/Desktop/Documentos Lucas/Academico/Materias Actuales y seminarios/Digital I/TP FINAL LUCAS/Voltimetro_Digital_Lucas_v1/Voltimetro_Digital_Lucas_v1.srcs/sources_1/new/mux_4_in.vhd:50]
+	Parameter N bound to: 4 - type: integer 
+INFO: [Synth 8-3491] module 'mux_4_in' declared at 'C:/Users/manci/Desktop/Documentos Lucas/Academico/Materias Actuales y seminarios/Digital I/TP FINAL LUCAS/Voltimetro_Digital_Lucas_v1/Voltimetro_Digital_Lucas_v1.srcs/sources_1/new/mux_4_in.vhd:34' bound to instance 'mux_EFGH' of component 'mux_4_in' [C:/Users/manci/Desktop/Documentos Lucas/Academico/Materias Actuales y seminarios/Digital I/TP FINAL LUCAS/Voltimetro_Digital_Lucas_v1/Voltimetro_Digital_Lucas_v1.srcs/sources_1/new/mux_8_in.vhd:78]
+	Parameter N bound to: 4 - type: integer 
+INFO: [Synth 8-3491] module 'mux_bin_gen' declared at 'C:/Users/manci/Desktop/Documentos Lucas/Academico/Materias Actuales y seminarios/Digital I/TP FINAL LUCAS/Voltimetro_Digital_Lucas_v1/Voltimetro_Digital_Lucas_v1.srcs/sources_1/new/mux_bin_gen.vhd:34' bound to instance 'mux_out' of component 'mux_bin_gen' [C:/Users/manci/Desktop/Documentos Lucas/Academico/Materias Actuales y seminarios/Digital I/TP FINAL LUCAS/Voltimetro_Digital_Lucas_v1/Voltimetro_Digital_Lucas_v1.srcs/sources_1/new/mux_8_in.vhd:89]
+INFO: [Synth 8-256] done synthesizing module 'mux_8_in' (20#1) [C:/Users/manci/Desktop/Documentos Lucas/Academico/Materias Actuales y seminarios/Digital I/TP FINAL LUCAS/Voltimetro_Digital_Lucas_v1/Voltimetro_Digital_Lucas_v1.srcs/sources_1/new/mux_8_in.vhd:43]
+INFO: [Synth 8-3491] module 'font_rom' declared at 'C:/Users/manci/Desktop/Documentos Lucas/Academico/Materias Actuales y seminarios/Digital I/TP FINAL LUCAS/Voltimetro_Digital_Lucas_v1/Voltimetro_Digital_Lucas_v1.srcs/sources_1/new/font_rom.vhd:34' bound to instance 'font_rom_inst' of component 'font_rom' [C:/Users/manci/Desktop/Documentos Lucas/Academico/Materias Actuales y seminarios/Digital I/TP FINAL LUCAS/Voltimetro_Digital_Lucas_v1/Voltimetro_Digital_Lucas_v1.srcs/sources_1/new/VGA_data_gen.vhd:96]
+INFO: [Synth 8-638] synthesizing module 'font_rom' [C:/Users/manci/Desktop/Documentos Lucas/Academico/Materias Actuales y seminarios/Digital I/TP FINAL LUCAS/Voltimetro_Digital_Lucas_v1/Voltimetro_Digital_Lucas_v1.srcs/sources_1/new/font_rom.vhd:49]
+INFO: [Synth 8-256] done synthesizing module 'font_rom' (21#1) [C:/Users/manci/Desktop/Documentos Lucas/Academico/Materias Actuales y seminarios/Digital I/TP FINAL LUCAS/Voltimetro_Digital_Lucas_v1/Voltimetro_Digital_Lucas_v1.srcs/sources_1/new/font_rom.vhd:49]
+INFO: [Synth 8-256] done synthesizing module 'VGA_data_gen' (22#1) [C:/Users/manci/Desktop/Documentos Lucas/Academico/Materias Actuales y seminarios/Digital I/TP FINAL LUCAS/Voltimetro_Digital_Lucas_v1/Voltimetro_Digital_Lucas_v1.srcs/sources_1/new/VGA_data_gen.vhd:45]
+INFO: [Synth 8-3491] module 'VGA_rgb_gen' declared at 'C:/Users/manci/Desktop/Documentos Lucas/Academico/Materias Actuales y seminarios/Digital I/TP FINAL LUCAS/Voltimetro_Digital_Lucas_v1/Voltimetro_Digital_Lucas_v1.srcs/sources_1/new/VGA_rgb_gen.vhd:34' bound to instance 'VGA_rgb_gen_inst' of component 'VGA_rgb_gen' [C:/Users/manci/Desktop/Documentos Lucas/Academico/Materias Actuales y seminarios/Digital I/TP FINAL LUCAS/Voltimetro_Digital_Lucas_v1/Voltimetro_Digital_Lucas_v1.srcs/sources_1/new/VGA.vhd:119]
+INFO: [Synth 8-638] synthesizing module 'VGA_rgb_gen' [C:/Users/manci/Desktop/Documentos Lucas/Academico/Materias Actuales y seminarios/Digital I/TP FINAL LUCAS/Voltimetro_Digital_Lucas_v1/Voltimetro_Digital_Lucas_v1.srcs/sources_1/new/VGA_rgb_gen.vhd:46]
+	Parameter N bound to: 3 - type: integer 
+INFO: [Synth 8-3491] module 'Comparator_X' declared at 'C:/Users/manci/Desktop/Documentos Lucas/Academico/Materias Actuales y seminarios/Digital I/TP FINAL LUCAS/Voltimetro_Digital_Lucas_v1/Voltimetro_Digital_Lucas_v1.srcs/sources_1/new/Comparator_X.vhd:34' bound to instance 'Comparator_X_inst' of component 'Comparator_X' [C:/Users/manci/Desktop/Documentos Lucas/Academico/Materias Actuales y seminarios/Digital I/TP FINAL LUCAS/Voltimetro_Digital_Lucas_v1/Voltimetro_Digital_Lucas_v1.srcs/sources_1/new/VGA_rgb_gen.vhd:78]
+INFO: [Synth 8-638] synthesizing module 'Comparator_X__parameterized4' [C:/Users/manci/Desktop/Documentos Lucas/Academico/Materias Actuales y seminarios/Digital I/TP FINAL LUCAS/Voltimetro_Digital_Lucas_v1/Voltimetro_Digital_Lucas_v1.srcs/sources_1/new/Comparator_X.vhd:42]
+	Parameter N bound to: 3 - type: integer 
+INFO: [Synth 8-256] done synthesizing module 'Comparator_X__parameterized4' (22#1) [C:/Users/manci/Desktop/Documentos Lucas/Academico/Materias Actuales y seminarios/Digital I/TP FINAL LUCAS/Voltimetro_Digital_Lucas_v1/Voltimetro_Digital_Lucas_v1.srcs/sources_1/new/Comparator_X.vhd:42]
+INFO: [Synth 8-256] done synthesizing module 'VGA_rgb_gen' (23#1) [C:/Users/manci/Desktop/Documentos Lucas/Academico/Materias Actuales y seminarios/Digital I/TP FINAL LUCAS/Voltimetro_Digital_Lucas_v1/Voltimetro_Digital_Lucas_v1.srcs/sources_1/new/VGA_rgb_gen.vhd:46]
+INFO: [Synth 8-256] done synthesizing module 'VGA' (24#1) [C:/Users/manci/Desktop/Documentos Lucas/Academico/Materias Actuales y seminarios/Digital I/TP FINAL LUCAS/Voltimetro_Digital_Lucas_v1/Voltimetro_Digital_Lucas_v1.srcs/sources_1/new/VGA.vhd:48]
+INFO: [Synth 8-256] done synthesizing module 'Voltmeter_top' (25#1) [C:/Users/manci/Desktop/Documentos Lucas/Academico/Materias Actuales y seminarios/Digital I/TP FINAL LUCAS/Voltimetro_Digital_Lucas_v1/Voltimetro_Digital_Lucas_v1.srcs/sources_1/new/Voltmeter_top.vhd:57]
+WARNING: [Synth 8-3331] design VGA_rgb_gen has unconnected port H_count[9]
+WARNING: [Synth 8-3331] design VGA_rgb_gen has unconnected port H_count[8]
+WARNING: [Synth 8-3331] design VGA_rgb_gen has unconnected port H_count[7]
+WARNING: [Synth 8-3331] design VGA_rgb_gen has unconnected port H_count[6]
+WARNING: [Synth 8-3331] design VGA_rgb_gen has unconnected port H_count[5]
+WARNING: [Synth 8-3331] design VGA_rgb_gen has unconnected port H_count[4]
+WARNING: [Synth 8-3331] design VGA_rgb_gen has unconnected port H_count[3]
+WARNING: [Synth 8-3331] design VGA_rgb_gen has unconnected port H_count[2]
+WARNING: [Synth 8-3331] design VGA_rgb_gen has unconnected port H_count[1]
+WARNING: [Synth 8-3331] design VGA_rgb_gen has unconnected port H_count[0]
+WARNING: [Synth 8-3331] design VGA_rgb_gen has unconnected port V_count[6]
+WARNING: [Synth 8-3331] design VGA_rgb_gen has unconnected port V_count[5]
+WARNING: [Synth 8-3331] design VGA_rgb_gen has unconnected port V_count[4]
+WARNING: [Synth 8-3331] design VGA_rgb_gen has unconnected port V_count[3]
+WARNING: [Synth 8-3331] design VGA_rgb_gen has unconnected port V_count[2]
+WARNING: [Synth 8-3331] design VGA_rgb_gen has unconnected port V_count[1]
+WARNING: [Synth 8-3331] design VGA_rgb_gen has unconnected port V_count[0]
+WARNING: [Synth 8-3331] design font_rom has unconnected port font_col[9]
+WARNING: [Synth 8-3331] design font_rom has unconnected port font_col[8]
+WARNING: [Synth 8-3331] design font_rom has unconnected port font_col[7]
+WARNING: [Synth 8-3331] design font_rom has unconnected port font_col[3]
+WARNING: [Synth 8-3331] design font_rom has unconnected port font_col[2]
+WARNING: [Synth 8-3331] design font_rom has unconnected port font_col[1]
+WARNING: [Synth 8-3331] design font_rom has unconnected port font_col[0]
+WARNING: [Synth 8-3331] design font_rom has unconnected port font_row[9]
+WARNING: [Synth 8-3331] design font_rom has unconnected port font_row[8]
+WARNING: [Synth 8-3331] design font_rom has unconnected port font_row[7]
+WARNING: [Synth 8-3331] design font_rom has unconnected port font_row[2]
+WARNING: [Synth 8-3331] design font_rom has unconnected port font_row[1]
+WARNING: [Synth 8-3331] design font_rom has unconnected port font_row[0]
+WARNING: [Synth 8-3331] design Visible_flag_generator has unconnected port reset
+WARNING: [Synth 8-3331] design Visible_flag_generator has unconnected port clock
+---------------------------------------------------------------------------------
+Finished RTL Elaboration : Time (s): cpu = 00:00:05 ; elapsed = 00:00:08 . Memory (MB): peak = 899.090 ; gain = 243.875
+---------------------------------------------------------------------------------
+
+Report Check Netlist: 
++------+------------------+-------+---------+-------+------------------+
+|      |Item              |Errors |Warnings |Status |Description       |
++------+------------------+-------+---------+-------+------------------+
+|1     |multi_driven_nets |      0|        0|Passed |Multi driven nets |
++------+------------------+-------+---------+-------+------------------+
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:05 ; elapsed = 00:00:09 . Memory (MB): peak = 899.090 ; gain = 243.875
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 1 : Time (s): cpu = 00:00:05 ; elapsed = 00:00:09 . Memory (MB): peak = 899.090 ; gain = 243.875
+---------------------------------------------------------------------------------
+INFO: [Project 1-570] Preparing netlist for logic optimization
+
+Processing XDC Constraints
+Initializing timing engine
+Parsing XDC File [C:/Users/manci/Desktop/Documentos Lucas/Academico/Materias Actuales y seminarios/Digital I/Archivo de restricciones Arty-A7-35.xdc]
+Finished Parsing XDC File [C:/Users/manci/Desktop/Documentos Lucas/Academico/Materias Actuales y seminarios/Digital I/Archivo de restricciones Arty-A7-35.xdc]
+Completed Processing XDC Constraints
+
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 1007.938 ; gain = 0.000
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+WARNING: [Constraints 18-5210] No constraints selected for write.
+Resolution: This message can indicate that there are no constraints for the design, or it can indicate that the used_in flags are set such that the constraints are ignored. This later case is used when running synth_design to not write synthesis constraints to the resulting checkpoint. Instead, project constraints are read when the synthesized design is opened.
+Constraint Validation Runtime : Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.233 . Memory (MB): peak = 1011.293 ; gain = 3.355
+---------------------------------------------------------------------------------
+Finished Constraint Validation : Time (s): cpu = 00:00:10 ; elapsed = 00:00:17 . Memory (MB): peak = 1011.293 ; gain = 356.078
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Loading Part and Timing Information
+---------------------------------------------------------------------------------
+Loading part: xc7a35ticsg324-1L
+---------------------------------------------------------------------------------
+Finished Loading Part and Timing Information : Time (s): cpu = 00:00:10 ; elapsed = 00:00:17 . Memory (MB): peak = 1011.293 ; gain = 356.078
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Applying 'set_property' XDC Constraints
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished applying 'set_property' XDC Constraints : Time (s): cpu = 00:00:10 ; elapsed = 00:00:17 . Memory (MB): peak = 1011.293 ; gain = 356.078
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 2 : Time (s): cpu = 00:00:11 ; elapsed = 00:00:18 . Memory (MB): peak = 1011.293 ; gain = 356.078
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start RTL Component Statistics 
+---------------------------------------------------------------------------------
+Detailed RTL Component Info : 
++---XORs : 
+	   2 Input      1 Bit         XORs := 155   
++---Registers : 
+	                1 Bit    Registers := 72    
+---------------------------------------------------------------------------------
+Finished RTL Component Statistics 
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start RTL Hierarchical Component Statistics 
+---------------------------------------------------------------------------------
+Hierarchical RTL Component report 
+Module Clock_voltmeter 
+Detailed RTL Component Info : 
++---Registers : 
+	                1 Bit    Registers := 2     
+Module FlipFlopD_ena 
+Detailed RTL Component Info : 
++---Registers : 
+	                1 Bit    Registers := 1     
+Module Counter_generic 
+Detailed RTL Component Info : 
++---XORs : 
+	   2 Input      1 Bit         XORs := 4     
+Module Comparator_X 
+Detailed RTL Component Info : 
++---XORs : 
+	   2 Input      1 Bit         XORs := 4     
+Module Comparator_X__parameterized1 
+Detailed RTL Component Info : 
++---XORs : 
+	   2 Input      1 Bit         XORs := 16    
+Module Counter_generic__parameterized1 
+Detailed RTL Component Info : 
++---XORs : 
+	   2 Input      1 Bit         XORs := 16    
+Module Counter_generic__parameterized3 
+Detailed RTL Component Info : 
++---XORs : 
+	   2 Input      1 Bit         XORs := 10    
+Module Comparator_X__parameterized3 
+Detailed RTL Component Info : 
++---XORs : 
+	   2 Input      1 Bit         XORs := 10    
+Module Comparator_X__parameterized4 
+Detailed RTL Component Info : 
++---XORs : 
+	   2 Input      1 Bit         XORs := 3     
+---------------------------------------------------------------------------------
+Finished RTL Hierarchical Component Statistics
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Part Resource Summary
+---------------------------------------------------------------------------------
+Part Resources:
+DSPs: 90 (col length:60)
+BRAMs: 100 (col length: RAMB18 60 RAMB36 30)
+---------------------------------------------------------------------------------
+Finished Part Resource Summary
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Cross Boundary and Area Optimization
+---------------------------------------------------------------------------------
+Warning: Parallel synthesis criteria is not met 
+WARNING: [Synth 8-3917] design Voltmeter_top has port G driven by constant 0
+WARNING: [Synth 8-3917] design Voltmeter_top has port B driven by constant 0
+---------------------------------------------------------------------------------
+Finished Cross Boundary and Area Optimization : Time (s): cpu = 00:00:13 ; elapsed = 00:00:21 . Memory (MB): peak = 1011.293 ; gain = 356.078
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start ROM, RAM, DSP and Shift Register Reporting
+---------------------------------------------------------------------------------
+
+ROM:
++--------------+-------------------------------------------------+---------------+----------------+
+|Module Name   | RTL Object                                      | Depth x Width | Implemented As | 
++--------------+-------------------------------------------------+---------------+----------------+
+|font_rom      | ROM[0]                                          | 256x8         | LUT            | 
+|Voltmeter_top | VGA_inst/VGA_data_gen_inst/font_rom_inst/ROM[0] | 256x8         | LUT            | 
++--------------+-------------------------------------------------+---------------+----------------+
+
+---------------------------------------------------------------------------------
+Finished ROM, RAM, DSP and Shift Register Reporting
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start Applying XDC Timing Constraints
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Applying XDC Timing Constraints : Time (s): cpu = 00:00:20 ; elapsed = 00:00:29 . Memory (MB): peak = 1011.293 ; gain = 356.078
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Timing Optimization
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Timing Optimization : Time (s): cpu = 00:00:20 ; elapsed = 00:00:29 . Memory (MB): peak = 1011.293 ; gain = 356.078
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start Technology Mapping
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Technology Mapping : Time (s): cpu = 00:00:20 ; elapsed = 00:00:29 . Memory (MB): peak = 1011.293 ; gain = 356.078
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished IO Insertion : Time (s): cpu = 00:00:22 ; elapsed = 00:00:31 . Memory (MB): peak = 1011.566 ; gain = 356.352
+---------------------------------------------------------------------------------
+
+Report Check Netlist: 
++------+------------------+-------+---------+-------+------------------+
+|      |Item              |Errors |Warnings |Status |Description       |
++------+------------------+-------+---------+-------+------------------+
+|1     |multi_driven_nets |      0|        0|Passed |Multi driven nets |
++------+------------------+-------+---------+-------+------------------+
+---------------------------------------------------------------------------------
+Start Renaming Generated Instances
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Instances : Time (s): cpu = 00:00:22 ; elapsed = 00:00:31 . Memory (MB): peak = 1011.566 ; gain = 356.352
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start Rebuilding User Hierarchy
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Rebuilding User Hierarchy : Time (s): cpu = 00:00:22 ; elapsed = 00:00:31 . Memory (MB): peak = 1011.566 ; gain = 356.352
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Ports
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Ports : Time (s): cpu = 00:00:22 ; elapsed = 00:00:31 . Memory (MB): peak = 1011.566 ; gain = 356.352
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:22 ; elapsed = 00:00:31 . Memory (MB): peak = 1011.566 ; gain = 356.352
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Nets
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Nets : Time (s): cpu = 00:00:22 ; elapsed = 00:00:31 . Memory (MB): peak = 1011.566 ; gain = 356.352
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Writing Synthesis Report
+---------------------------------------------------------------------------------
+
+Report BlackBoxes: 
++-+--------------+----------+
+| |BlackBox name |Instances |
++-+--------------+----------+
++-+--------------+----------+
+
+Report Cell Usage: 
++------+------+------+
+|      |Cell  |Count |
++------+------+------+
+|1     |BUFG  |     2|
+|2     |LUT1  |     6|
+|3     |LUT2  |    12|
+|4     |LUT3  |    11|
+|5     |LUT4  |    17|
+|6     |LUT5  |    22|
+|7     |LUT6  |    48|
+|8     |MUXF7 |     4|
+|9     |MUXF8 |     1|
+|10    |FDCE  |     1|
+|11    |FDRE  |    63|
+|12    |IBUF  |     4|
+|13    |OBUF  |     5|
++------+------+------+
+
+Report Instance Areas: 
++------+------------------------------------------------------+-----------------------------------+------+
+|      |Instance                                              |Module                             |Cells |
++------+------------------------------------------------------+-----------------------------------+------+
+|1     |top                                                   |                                   |   196|
+|2     |  ADC_inst                                            |ADC                                |    88|
+|3     |    Counter_33000_inst                                |Counter_33000                      |    46|
+|4     |      Counter_uptoX_inst                              |Counter_uptoX                      |    46|
+|5     |        Counter_generic_inst                          |Counter_generic__parameterized1    |    46|
+|6     |          \gen_counter[0].gen_counter_1.inst1         |FlipFlopD_ena_50                   |     3|
+|7     |          \gen_counter[10].gen_counter_2_to_N.insti   |FlipFlopD_ena_51                   |     2|
+|8     |          \gen_counter[11].gen_counter_2_to_N.insti   |FlipFlopD_ena_52                   |     3|
+|9     |          \gen_counter[12].gen_counter_2_to_N.insti   |FlipFlopD_ena_53                   |     2|
+|10    |          \gen_counter[13].gen_counter_2_to_N.insti   |FlipFlopD_ena_54                   |     2|
+|11    |          \gen_counter[14].gen_counter_2_to_N.insti   |FlipFlopD_ena_55                   |     6|
+|12    |          \gen_counter[15].gen_counter_2_to_N.insti   |FlipFlopD_ena_56                   |     2|
+|13    |          \gen_counter[1].gen_counter_2_to_N.insti    |FlipFlopD_ena_57                   |     2|
+|14    |          \gen_counter[2].gen_counter_2_to_N.insti    |FlipFlopD_ena_58                   |     2|
+|15    |          \gen_counter[3].gen_counter_2_to_N.insti    |FlipFlopD_ena_59                   |     3|
+|16    |          \gen_counter[4].gen_counter_2_to_N.insti    |FlipFlopD_ena_60                   |     6|
+|17    |          \gen_counter[5].gen_counter_2_to_N.insti    |FlipFlopD_ena_61                   |     2|
+|18    |          \gen_counter[6].gen_counter_2_to_N.insti    |FlipFlopD_ena_62                   |     2|
+|19    |          \gen_counter[7].gen_counter_2_to_N.insti    |FlipFlopD_ena_63                   |     4|
+|20    |          \gen_counter[8].gen_counter_2_to_N.insti    |FlipFlopD_ena_64                   |     2|
+|21    |          \gen_counter[9].gen_counter_2_to_N.insti    |FlipFlopD_ena_65                   |     3|
+|22    |    Counter_BCD_5_digits_inst                         |Counter_BCD_5_digits               |    29|
+|23    |      Counter_BCD_inst_1                              |Counter_BCD                        |    10|
+|24    |        Counter_generic_inst                          |Counter_generic_45                 |    10|
+|25    |          \gen_counter[0].gen_counter_1.inst1         |FlipFlopD_ena_46                   |     4|
+|26    |          \gen_counter[1].gen_counter_2_to_N.insti    |FlipFlopD_ena_47                   |     1|
+|27    |          \gen_counter[2].gen_counter_2_to_N.insti    |FlipFlopD_ena_48                   |     3|
+|28    |          \gen_counter[3].gen_counter_2_to_N.insti    |FlipFlopD_ena_49                   |     2|
+|29    |      Counter_BCD_inst_2                              |Counter_BCD_34                     |    10|
+|30    |        Counter_generic_inst                          |Counter_generic_40                 |    10|
+|31    |          \gen_counter[0].gen_counter_1.inst1         |FlipFlopD_ena_41                   |     4|
+|32    |          \gen_counter[1].gen_counter_2_to_N.insti    |FlipFlopD_ena_42                   |     1|
+|33    |          \gen_counter[2].gen_counter_2_to_N.insti    |FlipFlopD_ena_43                   |     3|
+|34    |          \gen_counter[3].gen_counter_2_to_N.insti    |FlipFlopD_ena_44                   |     2|
+|35    |      Counter_BCD_inst_3                              |Counter_BCD_35                     |     9|
+|36    |        Counter_generic_inst                          |Counter_generic                    |     9|
+|37    |          \gen_counter[0].gen_counter_1.inst1         |FlipFlopD_ena_36                   |     4|
+|38    |          \gen_counter[1].gen_counter_2_to_N.insti    |FlipFlopD_ena_37                   |     1|
+|39    |          \gen_counter[2].gen_counter_2_to_N.insti    |FlipFlopD_ena_38                   |     2|
+|40    |          \gen_counter[3].gen_counter_2_to_N.insti    |FlipFlopD_ena_39                   |     2|
+|41    |    Register_BCD_3_inst                               |Register_BCD_3                     |    13|
+|42    |      \ffds[0].ffd_first_dig.ffd_first_dig_inst       |FlipFlopD_ena_22                   |     1|
+|43    |      \ffds[10].ffd_third_dig.ffd_third_dig_inst      |FlipFlopD_ena_23                   |     1|
+|44    |      \ffds[11].ffd_third_dig.ffd_third_dig_inst      |FlipFlopD_ena_24                   |     1|
+|45    |      \ffds[1].ffd_first_dig.ffd_first_dig_inst       |FlipFlopD_ena_25                   |     2|
+|46    |      \ffds[2].ffd_first_dig.ffd_first_dig_inst       |FlipFlopD_ena_26                   |     1|
+|47    |      \ffds[3].ffd_first_dig.ffd_first_dig_inst       |FlipFlopD_ena_27                   |     1|
+|48    |      \ffds[4].ffd_second_dig.ffd_second_dig_inst     |FlipFlopD_ena_28                   |     1|
+|49    |      \ffds[5].ffd_second_dig.ffd_second_dig_inst     |FlipFlopD_ena_29                   |     1|
+|50    |      \ffds[6].ffd_second_dig.ffd_second_dig_inst     |FlipFlopD_ena_30                   |     1|
+|51    |      \ffds[7].ffd_second_dig.ffd_second_dig_inst     |FlipFlopD_ena_31                   |     1|
+|52    |      \ffds[8].ffd_third_dig.ffd_third_dig_inst       |FlipFlopD_ena_32                   |     1|
+|53    |      \ffds[9].ffd_third_dig.ffd_third_dig_inst       |FlipFlopD_ena_33                   |     1|
+|54    |  Clock_voltmeter_inst                                |Clock_voltmeter                    |     3|
+|55    |  VGA_inst                                            |VGA                                |    94|
+|56    |    VGA_data_gen_inst                                 |VGA_data_gen                       |    29|
+|57    |      font_rom_inst                                   |font_rom                           |    29|
+|58    |    VGA_sync_control_inst                             |VGA_sync_control                   |    65|
+|59    |      VGA_H_sync_inst                                 |VGA_H_sync                         |    31|
+|60    |        FlipFlopD_inst                                |FlipFlopD_ena_10                   |     1|
+|61    |        VGA_H_counter_inst                            |VGA_H_counter                      |    30|
+|62    |          Counter_generic_10b                         |Counter_generic__parameterized3_11 |    30|
+|63    |            \gen_counter[0].gen_counter_1.inst1       |FlipFlopD_ena_12                   |     3|
+|64    |            \gen_counter[1].gen_counter_2_to_N.insti  |FlipFlopD_ena_13                   |     1|
+|65    |            \gen_counter[2].gen_counter_2_to_N.insti  |FlipFlopD_ena_14                   |     2|
+|66    |            \gen_counter[3].gen_counter_2_to_N.insti  |FlipFlopD_ena_15                   |     4|
+|67    |            \gen_counter[4].gen_counter_2_to_N.insti  |FlipFlopD_ena_16                   |     5|
+|68    |            \gen_counter[5].gen_counter_2_to_N.insti  |FlipFlopD_ena_17                   |     2|
+|69    |            \gen_counter[6].gen_counter_2_to_N.insti  |FlipFlopD_ena_18                   |     2|
+|70    |            \gen_counter[7].gen_counter_2_to_N.insti  |FlipFlopD_ena_19                   |     4|
+|71    |            \gen_counter[8].gen_counter_2_to_N.insti  |FlipFlopD_ena_20                   |     2|
+|72    |            \gen_counter[9].gen_counter_2_to_N.insti  |FlipFlopD_ena_21                   |     5|
+|73    |      VGA_V_sync_inst                                 |VGA_V_sync                         |    34|
+|74    |        FlipFlopD_inst                                |FlipFlopD_ena                      |     1|
+|75    |        VGA_V_counter_inst                            |VGA_V_counter                      |    33|
+|76    |          Counter_generic_10b                         |Counter_generic__parameterized3    |    33|
+|77    |            \gen_counter[0].gen_counter_1.inst1       |FlipFlopD_ena_0                    |     3|
+|78    |            \gen_counter[1].gen_counter_2_to_N.insti  |FlipFlopD_ena_1                    |     3|
+|79    |            \gen_counter[2].gen_counter_2_to_N.insti  |FlipFlopD_ena_2                    |     3|
+|80    |            \gen_counter[3].gen_counter_2_to_N.insti  |FlipFlopD_ena_3                    |     4|
+|81    |            \gen_counter[4].gen_counter_2_to_N.insti  |FlipFlopD_ena_4                    |     3|
+|82    |            \gen_counter[5].gen_counter_2_to_N.insti  |FlipFlopD_ena_5                    |     6|
+|83    |            \gen_counter[6].gen_counter_2_to_N.insti  |FlipFlopD_ena_6                    |     4|
+|84    |            \gen_counter[7].gen_counter_2_to_N.insti  |FlipFlopD_ena_7                    |     3|
+|85    |            \gen_counter[8].gen_counter_2_to_N.insti  |FlipFlopD_ena_8                    |     2|
+|86    |            \gen_counter[9].gen_counter_2_to_N.insti  |FlipFlopD_ena_9                    |     2|
++------+------------------------------------------------------+-----------------------------------+------+
+---------------------------------------------------------------------------------
+Finished Writing Synthesis Report : Time (s): cpu = 00:00:22 ; elapsed = 00:00:31 . Memory (MB): peak = 1011.566 ; gain = 356.352
+---------------------------------------------------------------------------------
+Synthesis finished with 0 errors, 0 critical warnings and 2 warnings.
+Synthesis Optimization Runtime : Time (s): cpu = 00:00:15 ; elapsed = 00:00:27 . Memory (MB): peak = 1011.566 ; gain = 244.148
+Synthesis Optimization Complete : Time (s): cpu = 00:00:22 ; elapsed = 00:00:31 . Memory (MB): peak = 1011.566 ; gain = 356.352
+INFO: [Project 1-571] Translating synthesized netlist
+INFO: [Netlist 29-17] Analyzing 5 Unisim elements for replacement
+INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
+INFO: [Project 1-570] Preparing netlist for logic optimization
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.001 . Memory (MB): peak = 1027.645 ; gain = 0.000
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+INFO: [Common 17-83] Releasing license: Synthesis
+157 Infos, 35 Warnings, 0 Critical Warnings and 0 Errors encountered.
+synth_design completed successfully
+synth_design: Time (s): cpu = 00:00:28 ; elapsed = 00:00:43 . Memory (MB): peak = 1027.645 ; gain = 626.633
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 1027.645 ; gain = 0.000
+WARNING: [Constraints 18-5210] No constraints selected for write.
+Resolution: This message can indicate that there are no constraints for the design, or it can indicate that the used_in flags are set such that the constraints are ignored. This later case is used when running synth_design to not write synthesis constraints to the resulting checkpoint. Instead, project constraints are read when the synthesized design is opened.
+INFO: [Common 17-1381] The checkpoint 'C:/Users/manci/Desktop/Documentos Lucas/Academico/Materias Actuales y seminarios/Digital I/TP FINAL LUCAS/Voltimetro_Digital_Lucas_v1/Voltimetro_Digital_Lucas_v1.runs/synth_1/Voltmeter_top.dcp' has been generated.
+INFO: [runtcl-4] Executing : report_utilization -file Voltmeter_top_utilization_synth.rpt -pb Voltmeter_top_utilization_synth.pb
+INFO: [Common 17-206] Exiting Vivado at Mon Mar  9 15:46:51 2020...

@@ -1,0 +1,23 @@
+Vivado Simulator 2019.1
+Copyright 1986-1999, 2001-2019 Xilinx, Inc. All Rights Reserved.
+Running: C:/Xilinx/Vivado/2019.1/bin/unwrapped/win64.o/xelab.exe -wto 012f207678c944329de029d3a18aaf41 --incr --debug typical --relax --mt 2 -L xil_defaultlib -L secureip --snapshot VGA_sync_control_tb_behav xil_defaultlib.VGA_sync_control_tb -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling package std.standard
+Compiling package std.textio
+Compiling package ieee.std_logic_1164
+Compiling package ieee.numeric_std
+Compiling architecture flipflopd_ena_arq of entity xil_defaultlib.FlipFlopD_ena [flipflopd_ena_default]
+Compiling architecture counter_generic_arq of entity xil_defaultlib.Counter_generic [\Counter_generic(n=10)\]
+Compiling architecture comparator_x_arq of entity xil_defaultlib.Comparator_X [\Comparator_X(n=10)\]
+Compiling architecture vga_h_counter_arq of entity xil_defaultlib.VGA_H_counter [vga_h_counter_default]
+Compiling architecture vga_h_sync_arq of entity xil_defaultlib.VGA_H_sync [vga_h_sync_default]
+Compiling architecture vga_v_counter_arq of entity xil_defaultlib.VGA_V_counter [vga_v_counter_default]
+Compiling architecture vga_v_sync_arq of entity xil_defaultlib.VGA_V_sync [vga_v_sync_default]
+Compiling architecture visible_flag_generator_arq of entity xil_defaultlib.Visible_flag_generator [visible_flag_generator_default]
+Compiling architecture vga_sync_control_arq of entity xil_defaultlib.VGA_sync_control [vga_sync_control_default]
+Compiling architecture vga_sync_control_tb_arq of entity xil_defaultlib.vga_sync_control_tb

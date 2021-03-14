@@ -1,0 +1,80 @@
+----------------------------------------------------------------------------------
+-- Company: 
+-- Engineer: 
+-- 
+-- Create Date: 17.12.2019 01:59:35
+-- Design Name: 
+-- Module Name: mux_8_in - mux_8_in_arq
+-- Project Name: 
+-- Target Devices: 
+-- Tool Versions: 
+-- Description: 
+-- 
+-- Dependencies: 
+-- 
+-- Revision:
+-- Revision 0.01 - File Created
+-- Additional Comments:
+-- 
+----------------------------------------------------------------------------------
+
+
+library IEEE;
+use IEEE.STD_LOGIC_1164.ALL;
+
+-- Uncomment the following library declaration if using
+-- arithmetic functions with Signed or Unsigned values
+--use IEEE.NUMERIC_STD.ALL;
+
+-- Uncomment the following library declaration if instantiating
+-- any Xilinx leaf cells in this code.
+--library UNISIM;
+--use UNISIM.VComponents.all;
+
+entity mux_8_in_TB is
+end mux_8_in_TB;
+
+architecture mux_8_in_TB_arq of  mux_8_in_TB is
+
+signal	A_tb: std_logic_vector( 1 downto 0 ):="10" ;
+signal	B_tb: std_logic_vector( 1 downto 0 ):="11" ;
+signal	C_tb: std_logic_vector( 1 downto 0 ):="01" ;
+signal	D_tb,E_tb,F_tb,G_tb,H_tb: std_logic_vector( 1 downto 0 ):="11" ;
+
+signal S_tb: std_logic_vector( 2 downto 0 ):="000";
+
+signal Q_tb: std_logic_vector( 1 downto 0 );
+
+component mux_8_in is
+	generic( N : integer := 2);
+	port(
+		A, B, C, D, E, F, G, H: in std_logic_vector( N-1 downto 0 );
+		S: in std_logic_vector( 2 downto 0 );
+		Q: out std_logic_vector( N-1 downto 0)
+		);
+end component;
+
+begin
+
+
+ DUT:  mux_8_in
+    generic map( N => 2 )
+   port map(
+      A=>A_tb,
+      B=>B_tb,
+      C=>C_tb,
+      D=>D_tb,
+      E=>E_tb,
+      F=>F_tb,
+      G=>G_tb,
+      H=>H_tb,
+      S=>S_tb,
+      Q=>Q_tb
+  );
+  
+ 
+ S_tb <= "001" after 50ns, "010" after 60ns, "011" after 70ns, "111" after 90ns;
+  
+  
+   
+end  mux_8_in_TB_arq;

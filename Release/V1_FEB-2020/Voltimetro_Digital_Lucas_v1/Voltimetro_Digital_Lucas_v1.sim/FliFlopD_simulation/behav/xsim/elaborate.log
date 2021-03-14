@@ -1,0 +1,15 @@
+Vivado Simulator 2019.1
+Copyright 1986-1999, 2001-2019 Xilinx, Inc. All Rights Reserved.
+Running: C:/Xilinx/Vivado/2019.1/bin/unwrapped/win64.o/xelab.exe -wto 012f207678c944329de029d3a18aaf41 --incr --debug typical --relax --mt 2 -L xil_defaultlib -L secureip --snapshot FlipFlopD_ena_TB_behav xil_defaultlib.FlipFlopD_ena_TB -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling package std.standard
+Compiling package std.textio
+Compiling package ieee.std_logic_1164
+Compiling architecture flipflopd_ena_arq of entity xil_defaultlib.FlipFlopD_ena [flipflopd_ena_default]
+Compiling architecture flipflopd_ena_tb_arq of entity xil_defaultlib.flipflopd_ena_tb
+Built simulation snapshot FlipFlopD_ena_TB_behav

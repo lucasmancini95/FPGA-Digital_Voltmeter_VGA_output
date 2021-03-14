@@ -1,0 +1,260 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GenRun Id="impl_1" LaunchPart="xc7a35ticsg324-1L" LaunchTime="1583779649">
+  <File Type="ROUTE-PWR" Name="Voltmeter_top_power_routed.rpt"/>
+  <File Type="PA-TCL" Name="Voltmeter_top.tcl"/>
+  <File Type="ROUTE-PWR-SUM" Name="Voltmeter_top_power_summary_routed.pb"/>
+  <File Type="REPORTS-TCL" Name="Voltmeter_top_reports.tcl"/>
+  <File Type="BITSTR-MSK" Name="Voltmeter_top.msk"/>
+  <File Type="ROUTE-CLK" Name="Voltmeter_top_clock_utilization_routed.rpt"/>
+  <File Type="RDI-RDI" Name="Voltmeter_top.vdi"/>
+  <File Type="BG-BIT" Name="Voltmeter_top.bit"/>
+  <File Type="BG-DRC" Name="Voltmeter_top.drc"/>
+  <File Type="BG-BGN" Name="Voltmeter_top.bgn"/>
+  <File Type="BG-BIN" Name="Voltmeter_top.bin"/>
+  <File Type="BITSTR-RBT" Name="Voltmeter_top.rbt"/>
+  <File Type="BITSTR-NKY" Name="Voltmeter_top.nky"/>
+  <File Type="BITSTR-BMM" Name="Voltmeter_top_bd.bmm"/>
+  <File Type="ROUTE-METHODOLOGY-DRC" Name="Voltmeter_top_methodology_drc_routed.rpt"/>
+  <File Type="BITSTR-MMI" Name="Voltmeter_top.mmi"/>
+  <File Type="BITSTR-SYSDEF" Name="Voltmeter_top.sysdef"/>
+  <File Type="BITSTR-LTX" Name="debug_nets.ltx"/>
+  <File Type="BITSTR-LTX" Name="Voltmeter_top.ltx"/>
+  <File Type="WBT-USG" Name="usage_statistics_webtalk.html"/>
+  <File Type="OPT-DRC" Name="Voltmeter_top_drc_opted.rpt"/>
+  <File Type="OPT-HWDEF" Name="Voltmeter_top.hwdef"/>
+  <File Type="PLACE-IO" Name="Voltmeter_top_io_placed.rpt"/>
+  <File Type="PLACE-UTIL" Name="Voltmeter_top_utilization_placed.rpt"/>
+  <File Type="PLACE-UTIL-PB" Name="Voltmeter_top_utilization_placed.pb"/>
+  <File Type="PLACE-CTRL" Name="Voltmeter_top_control_sets_placed.rpt"/>
+  <File Type="PLACE-PRE-SIMILARITY" Name="Voltmeter_top_incremental_reuse_pre_placed.rpt"/>
+  <File Type="ROUTE-DRC" Name="Voltmeter_top_drc_routed.rpt"/>
+  <File Type="ROUTE-DRC-PB" Name="Voltmeter_top_drc_routed.pb"/>
+  <File Type="ROUTE-PWR-RPX" Name="Voltmeter_top_power_routed.rpx"/>
+  <File Type="ROUTE-STATUS" Name="Voltmeter_top_route_status.rpt"/>
+  <File Type="ROUTE-STATUS-PB" Name="Voltmeter_top_route_status.pb"/>
+  <File Type="ROUTE-DCP" Name="Voltmeter_top_routed.dcp"/>
+  <File Type="ROUTE-ERROR-DCP" Name="Voltmeter_top_routed_error.dcp"/>
+  <File Type="ROUTE-BLACKBOX-DCP" Name="Voltmeter_top_routed_bb.dcp"/>
+  <File Type="ROUTE-TIMINGSUMMARY" Name="Voltmeter_top_timing_summary_routed.rpt"/>
+  <File Type="ROUTE-TIMING-PB" Name="Voltmeter_top_timing_summary_routed.pb"/>
+  <File Type="ROUTE-TIMING-RPX" Name="Voltmeter_top_timing_summary_routed.rpx"/>
+  <File Type="ROUTE-BUS-SKEW" Name="Voltmeter_top_bus_skew_routed.rpt"/>
+  <File Type="ROUTE-BUS-SKEW-PB" Name="Voltmeter_top_bus_skew_routed.pb"/>
+  <File Type="ROUTE-BUS-SKEW-RPX" Name="Voltmeter_top_bus_skew_routed.rpx"/>
+  <File Type="OPT-DCP" Name="Voltmeter_top_opt.dcp"/>
+  <File Type="PLACE-DCP" Name="Voltmeter_top_placed.dcp"/>
+  <File Type="PWROPT-DCP" Name="Voltmeter_top_pwropt.dcp"/>
+  <File Type="POSTPLACE-PWROPT-DCP" Name="Voltmeter_top_postplace_pwropt.dcp"/>
+  <File Type="PHYSOPT-DCP" Name="Voltmeter_top_physopt.dcp"/>
+  <File Type="POSTROUTE-PHYSOPT-DCP" Name="Voltmeter_top_postroute_physopt.dcp"/>
+  <File Type="POSTROUTE-PHYSOPT-BLACKBOX-DCP" Name="Voltmeter_top_postroute_physopt_bb.dcp"/>
+  <File Type="ROUTE-METHODOLOGY-DRC-PB" Name="Voltmeter_top_methodology_drc_routed.pb"/>
+  <File Type="ROUTE-DRC-RPX" Name="Voltmeter_top_drc_routed.rpx"/>
+  <File Type="ROUTE-METHODOLOGY-DRC-RPX" Name="Voltmeter_top_methodology_drc_routed.rpx"/>
+  <FileSet Name="sources" Type="DesignSrcs" RelSrcDir="$PSRCDIR/sources_1">
+    <Filter Type="Srcs"/>
+    <File Path="$PSRCDIR/sources_1/new/Voltmeter_top.vhd">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/Clock_voltmeter.vhd">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/ADC.vhd">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/VGA.vhd">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/FlipFlopD.vhd">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/Counter_BCD_5_digits.vhd">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/Counter_generic.vhd">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/Comparator_X.vhd">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/Comparator_simple.vhd">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/Counter_33000.vhd">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/Counter_uptoX.vhd">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/X_generator.vhd">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/Counter_BCD.vhd">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/Register_BCD_3.vhd">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/VGA_sync_control.vhd">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/VGA_data_gen.vhd">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/mux_8_in.vhd">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/mux_4_in.vhd">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/mux_bin_gen.vhd">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/font_rom.vhd">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/VGA_rgb_gen.vhd">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/VGA_H_sync.vhd">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/VGA_V_sync.vhd">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/Visible_flag_generator.vhd">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/Counter_generic_bis.vhd">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/FlipFlopD_ena.vhd">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/VGA_H_counter.vhd">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/VGA_V_counter.vhd">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <Config>
+      <Option Name="DesignMode" Val="RTL"/>
+      <Option Name="TopModule" Val="Voltmeter_top"/>
+    </Config>
+  </FileSet>
+  <FileSet Name="constrs_in" Type="Constrs" RelSrcDir="$PSRCDIR/constrs_1">
+    <Filter Type="Constrs"/>
+    <File Path="$PPRDIR/../../Archivo de restricciones Arty-A7-35.xdc">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+      </FileInfo>
+    </File>
+    <Config>
+      <Option Name="ConstrsType" Val="XDC"/>
+    </Config>
+  </FileSet>
+  <FileSet Name="utils" Type="Utils" RelSrcDir="$PSRCDIR/utils_1">
+    <Filter Type="Utils"/>
+    <Config>
+      <Option Name="TopAutoSet" Val="TRUE"/>
+    </Config>
+  </FileSet>
+  <Strategy Version="1" Minor="2">
+    <StratHandle Name="Vivado Implementation Defaults" Flow="Vivado Implementation 2019"/>
+    <Step Id="init_design"/>
+    <Step Id="opt_design"/>
+    <Step Id="power_opt_design"/>
+    <Step Id="place_design"/>
+    <Step Id="post_place_power_opt_design"/>
+    <Step Id="phys_opt_design"/>
+    <Step Id="route_design"/>
+    <Step Id="post_route_phys_opt_design"/>
+    <Step Id="write_bitstream"/>
+    <Step Id="write_device_image"/>
+  </Strategy>
+</GenRun>

@@ -1,0 +1,8 @@
+Vivado Simulator 2019.1
+Copyright 1986-1999, 2001-2019 Xilinx, Inc. All Rights Reserved.
+Running: C:/Xilinx/Vivado/2019.1/bin/unwrapped/win64.o/xelab.exe -wto 012f207678c944329de029d3a18aaf41 --incr --debug typical --relax --mt 2 -L xil_defaultlib -L secureip --snapshot Counter_generic_TB_behav xil_defaultlib.Counter_generic_TB -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+WARNING: [VRFC 10-3813] value in initialization depends on signal 'n_tb' [C:/Users/manci/Desktop/Documentos Lucas/Academico/Materias Actuales y seminarios/Digital I/TP FINAL LUCAS/Voltimetro_Digital_Lucas_v1/Voltimetro_Digital_Lucas_v1.srcs/counter_gen_simulation/new/Counter_generic_tb.vhd:53]
+Completed static elaboration
+INFO: [XSIM 43-4323] No Change in HDL. Linking previously generated obj files to create kernel

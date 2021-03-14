@@ -1,0 +1,27 @@
+Vivado Simulator 2019.1
+Copyright 1986-1999, 2001-2019 Xilinx, Inc. All Rights Reserved.
+Running: C:/Xilinx/Vivado/2019.1/bin/unwrapped/win64.o/xelab.exe -wto 012f207678c944329de029d3a18aaf41 --incr --debug typical --relax --mt 2 -L xil_defaultlib -L secureip --snapshot ADC_tb_behav xil_defaultlib.ADC_tb -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling package std.standard
+Compiling package std.textio
+Compiling package ieee.std_logic_1164
+Compiling package ieee.numeric_std
+Compiling architecture flipflopd_ena_arq of entity xil_defaultlib.FlipFlopD_ena [flipflopd_ena_default]
+Compiling architecture counter_generic_arq of entity xil_defaultlib.Counter_generic [counter_generic_default]
+Compiling architecture comparator_x_arq of entity xil_defaultlib.Comparator_X [comparator_x_default]
+Compiling architecture counter_bcd_arq of entity xil_defaultlib.Counter_BCD [counter_bcd_default]
+Compiling architecture counter_bcd_5_digits_arq of entity xil_defaultlib.Counter_BCD_5_digits [counter_bcd_5_digits_default]
+Compiling architecture comparator_x_arq of entity xil_defaultlib.Comparator_X [\Comparator_X(n=16)\]
+Compiling architecture counter_generic_arq of entity xil_defaultlib.Counter_generic [\Counter_generic(n=16)\]
+Compiling architecture counter_uptox_arq of entity xil_defaultlib.Counter_uptoX [counter_uptox_default]
+Compiling architecture x_generator_arq of entity xil_defaultlib.X_generator [x_generator_default]
+Compiling architecture counter_33000_arq of entity xil_defaultlib.Counter_33000 [counter_33000_default]
+Compiling architecture register_bcd_3_arq of entity xil_defaultlib.Register_BCD_3 [register_bcd_3_default]
+Compiling architecture adc_arq of entity xil_defaultlib.ADC [adc_default]
+Compiling architecture adc_tb_arq of entity xil_defaultlib.adc_tb
+Built simulation snapshot ADC_tb_behav

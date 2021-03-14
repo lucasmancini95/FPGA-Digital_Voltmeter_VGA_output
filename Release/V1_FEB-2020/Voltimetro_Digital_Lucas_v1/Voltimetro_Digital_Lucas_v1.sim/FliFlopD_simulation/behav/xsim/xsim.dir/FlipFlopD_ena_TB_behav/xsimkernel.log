@@ -1,0 +1,7 @@
+Running: xsim.dir/FlipFlopD_ena_TB_behav/xsimk.exe -simmode gui -wdb FlipFlopD_ena_TB_behav.wdb -simrunnum 0 -socket 54257
+Design successfully loaded
+Design Loading Memory Usage: 4980 KB (Peak: 4980 KB)
+Design Loading CPU Usage: 0 ms
+Simulation completed
+Simulation Memory Usage: 5552 KB (Peak: 5552 KB)
+Simulation CPU Usage: 0 ms
