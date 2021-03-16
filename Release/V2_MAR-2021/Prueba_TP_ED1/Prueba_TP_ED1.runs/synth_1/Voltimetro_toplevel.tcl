@@ -71,7 +71,7 @@ proc create_report { reportName command } {
 }
 OPTRACE "synth_1" START { ROLLUP_AUTO }
 set_param chipscope.maxJobs 1
-set_param synth.incrementalSynthesisCache C:/Users/manci/OneDrive/Escritorio/Prueba_TP_ED1/.Xil/Vivado-13780-DESKTOP-V2V80JQ/incrSyn
+set_param synth.incrementalSynthesisCache C:/Users/manci/OneDrive/Escritorio/Prueba_TP_ED1/.Xil/Vivado-5212-DESKTOP-V2V80JQ/incrSyn
 set_param xicom.use_bs_reader 1
 set_msg_config -id {Synth 8-256} -limit 10000
 set_msg_config -id {Synth 8-638} -limit 10000

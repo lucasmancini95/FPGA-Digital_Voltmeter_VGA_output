@@ -42,7 +42,8 @@ entity ADC is
            signal_in : in STD_LOGIC;
            digit_1 : out STD_LOGIC_VECTOR(3 downto 0);
            digit_2 : out STD_LOGIC_VECTOR(3 downto 0);
-           digit_3 : out STD_LOGIC_VECTOR(3 downto 0));
+           digit_3 : out STD_LOGIC_VECTOR(3 downto 0)
+           );
 end ADC;
 
 --------------------------------------------------------------------------------
@@ -99,7 +100,7 @@ Counter_BCD_5_digits_inst: Counter_BCD_5_digits
 port map (
        clock => clock,
        reset => reset, 
-       flag_33000 => s_flag_del,
+      flag_33000 => s_flag_del,
        count_in => signal_in,
        digit_1 => s_digit_1,
        digit_2 => s_digit_2,
@@ -135,7 +136,6 @@ ffd_ins: entity work.FlipFlopD_ena
 				D		=> s_flag,
 				Q		=> s_flag_del
 			);
-
 
 end ADC_Arq;
 

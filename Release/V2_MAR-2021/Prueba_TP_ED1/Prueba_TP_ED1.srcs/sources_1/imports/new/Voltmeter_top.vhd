@@ -72,7 +72,7 @@ end component;
 component ADC is
     port(
     	digit_1, digit_2, digit_3: out std_logic_vector(3 downto 0);
-    	signal_in, reset, clock, enable: in std_logic 
+    	signal_in, reset, clock, enable: in std_logic
     );
 end component;
 
@@ -99,6 +99,7 @@ end component;
 signal s_digit_1, s_digit_2, s_digit_3: std_logic_vector(3 downto 0);
 --signal voltmeter_clock: std_logic; 
 signal s_sigma_delta: std_logic;
+--signal s_feedback: std_logic;
 
 ---------------------------------------------------------------------------------
 begin
@@ -127,7 +128,7 @@ ADC_inst : ADC
        	digit_1 => s_digit_1,
        	digit_2 => s_digit_2,
        	digit_3 => s_digit_3,
-    	signal_in => s_sigma_delta,
+      	signal_in => s_sigma_delta,
     	reset => reset,
     	clock => clock,
     	enable => enable
@@ -150,5 +151,6 @@ ADC_inst : ADC
  );
 
 signal_out <= not s_sigma_delta;
+--signal_out <= s_feedback;
 
 end Voltmeter_top_arq;

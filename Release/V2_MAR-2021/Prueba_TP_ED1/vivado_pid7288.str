@@ -1,0 +1,131 @@
+/*
+
+Xilinx Vivado v2020.2 (64-bit) [Major: 2020, Minor: 2]
+SW Build: 3064766 on Wed Nov 18 09:12:45 MST 2020
+IP Build: 3064653 on Wed Nov 18 14:17:31 MST 2020
+
+Process ID (PID): 7288
+License: Customer
+Mode: GUI Mode
+
+Current time: 	Tue Mar 16 18:34:31 ART 2021
+Time zone: 	Argentina Standard Time (America/Buenos_Aires)
+
+OS: Windows 10
+OS Version: 10.0
+OS Architecture: amd64
+Available processors (cores): 4
+
+Screen size: 1920x1080
+Screen resolution (DPI): 125
+Available screens: 2
+Default font: family=Segoe UI,name=Segoe UI,style=plain,size=15
+Scale size: 19
+
+Java version: 	11.0.2 64-bit
+Java home: 	D:/Xilinx/Vivado/2020.2/tps/win64/jre11.0.2
+Java executable location: 	D:/Xilinx/Vivado/2020.2/tps/win64/jre11.0.2/bin/java.exe
+Java initial memory (-Xms): 	128 MB
+Java maximum memory (-Xmx):	 3 GB
+
+
+User name: 	manci
+User home directory: C:/Users/manci
+User working directory: C:/Users/manci/OneDrive/Escritorio/Prueba_TP_ED1
+User country: 	AR
+User language: 	es
+User locale: 	es_AR
+
+RDI_BASEROOT: D:/Xilinx/Vivado
+HDI_APPROOT: D:/Xilinx/Vivado/2020.2
+RDI_DATADIR: D:/Xilinx/Vivado/2020.2/data
+RDI_BINDIR: D:/Xilinx/Vivado/2020.2/bin
+
+Vivado preferences file location: C:/Users/manci/AppData/Roaming/Xilinx/Vivado/2020.2/vivado.xml
+Vivado preferences directory: C:/Users/manci/AppData/Roaming/Xilinx/Vivado/2020.2/
+Vivado layouts directory: C:/Users/manci/AppData/Roaming/Xilinx/Vivado/2020.2/data/layouts
+PlanAhead jar file location: 	D:/Xilinx/Vivado/2020.2/lib/classes/planAhead.jar
+Vivado log file location: 	C:/Users/manci/OneDrive/Escritorio/Prueba_TP_ED1/vivado.log
+Vivado journal file location: 	C:/Users/manci/OneDrive/Escritorio/Prueba_TP_ED1/vivado.jou
+Engine tmp dir: 	C:/Users/manci/OneDrive/Escritorio/Prueba_TP_ED1/.Xil/Vivado-7288-DESKTOP-V2V80JQ
+
+Xilinx Environment Variables
+----------------------------
+XILINX: D:/Xilinx/Vivado/2020.2/ids_lite/ISE
+XILINX_DSP: D:/Xilinx/Vivado/2020.2/ids_lite/ISE
+XILINX_HLS: D:/Xilinx/Vitis_HLS/2020.2
+XILINX_PLANAHEAD: D:/Xilinx/Vivado/2020.2
+XILINX_VIVADO: D:/Xilinx/Vivado/2020.2
+XILINX_VIVADO_HLS: D:/Xilinx/Vivado/2020.2
+
+
+GUI allocated memory:	128 MB
+GUI max memory:		3,072 MB
+Engine allocated memory: 1,067 MB
+
+Copyright 1986-2020 Xilinx, Inc. All Rights Reserved.
+
+*/
+
+// TclEventType: START_GUI
+// Tcl Message: start_gui 
+// TclEventType: PROJECT_OPEN_DIALOG
+// [GUI Memory]: 92 MB (+94154kb) [00:00:24]
+// [Engine Memory]: 1,067 MB (+966842kb) [00:00:24]
+// bz (cr):  Open Project : addNotify
+// Opening Vivado Project: C:\Users\manci\OneDrive\Escritorio\Prueba_TP_ED1\Prueba_TP_ED1.xpr. Version: Vivado v2020.2 
+// TclEventType: DEBUG_PROBE_SET_CHANGE
+// Tcl Message: open_project C:/Users/manci/OneDrive/Escritorio/Prueba_TP_ED1/Prueba_TP_ED1.xpr 
+// HMemoryUtils.trashcanNow. Engine heap size: 1,067 MB. GUI used memory: 60 MB. Current time: 3/16/21, 6:34:32 PM ART
+// TclEventType: MSGMGR_MOVEMSG
+// WARNING: HEventQueue.dispatchEvent() is taking  1030 ms.
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: FILE_SET_NEW
+// TclEventType: RUN_COMPLETED
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_COMPLETED
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_COMPLETED
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_CURRENT
+// TclEventType: PROJECT_DASHBOARD_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_CHANGE
+// TclEventType: PROJECT_DASHBOARD_GADGET_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_CHANGE
+// TclEventType: PROJECT_DASHBOARD_GADGET_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_CHANGE
+// TclEventType: PROJECT_DASHBOARD_GADGET_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_CHANGE
+// TclEventType: PROJECT_DASHBOARD_GADGET_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_CHANGE
+// TclEventType: PROJECT_DASHBOARD_GADGET_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_CHANGE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: PROJECT_NEW
+// [GUI Memory]: 113 MB (+17236kb) [00:00:37]
+// [GUI Memory]: 124 MB (+4880kb) [00:00:43]
+// WARNING: HEventQueue.dispatchEvent() is taking  10674 ms.
+// WARNING: HEventQueue.dispatchEvent() is taking  2505 ms.
+// Tcl Message: open_project C:/Users/manci/OneDrive/Escritorio/Prueba_TP_ED1/Prueba_TP_ED1.xpr 
+// Tcl Message: Scanning sources... Finished scanning sources 
+// Tcl Message: INFO: [IP_Flow 19-234] Refreshing IP repositories INFO: [IP_Flow 19-1704] No user IP repositories specified INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'D:/Xilinx/Vivado/2020.2/data/ip'. 
+// WARNING: HEventQueue.dispatchEvent() is taking  1217 ms.
+// Tcl Message: open_project: Time (s): cpu = 00:00:29 ; elapsed = 00:00:19 . Memory (MB): peak = 1088.664 ; gain = 0.000 
+// Project name: Prueba_TP_ED1; location: C:/Users/manci/OneDrive/Escritorio/Prueba_TP_ED1; part: xc7a35ticsg324-1L
+// TclEventType: FILE_SET_CHANGE
+dismissDialog("Open Project"); // bz
+// WARNING: HEventQueue.dispatchEvent() is taking  1282 ms.
+// WARNING: HTimer (FileMgr Design Graph Update Timer) is taking 1176ms to process. Increasing delay to 3000 ms.
+// WARNING: HEventQueue.dispatchEvent() is taking  1203 ms.
+// WARNING: HSwingWorker (Refresh Filesets Swing Worker) is taking 3936 ms. Increasing delay to 11808 ms.
+// Tcl Message: update_compile_order -fileset sources_1 
+// WARNING: HEventQueue.dispatchEvent() is taking  3281 ms.
+// WARNING: HTimer (FileMgr Design Graph Update Timer) is taking 1675ms to process. Increasing delay to 4000 ms.
+// WARNING: HEventQueue.dispatchEvent() is taking  6876 ms.
+// Tcl Command: 'rdi::info_commands {device::*}'
+// Tcl Command: 'rdi::info_commands {debug::*}'
+// Tcl Command: 'rdi::info_commands {*}'
+// WARNING: HSwingWorker (Update Runs Swing Worker) is taking 10539 ms. Increasing delay to 3000 ms.
+// WARNING: HSwingWorker (Refresh Filesets Swing Worker) is taking 174 ms. Decreasing delay to 2174 ms.
+// [GUI Memory]: 138 MB (+8519kb) [00:05:02]
